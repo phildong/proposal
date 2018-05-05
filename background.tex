@@ -4,69 +4,84 @@
 
 \section*{A. Significance}
 
-\begin{description} % For subheadings within a section, this template uses the {description} environment, it is not obtrusively large like a \subsection; and facilitates a brief optional subtitle; and it will wrap around figures and tables; it also has a decent amount of whitespace above/below which is less than for a section heading
-\item[A.1. Instructions.]{Optional subtitle}
-\end{description}
+Understanding how temporally distinct memories can be related together is
+essential to understanding episodic memory. It is generally believed that
+hippocampus make an important contribution to episodic memory in rodents.
+Traditionally, studies have focused on how familiar environments are coded in
+hippocampus. Most notably, we have extensive knowledge of how space is coded in
+distinct familiar settings, as well as how time is coded in learned task
+contingencies. On the other hand, it is found that different population of
+hippocampal neurons are engaged in memories at different times, forming a
+neuronal ensemble of the memory, and artificially stimulating a specific
+ensemble can create a ``false'' memory. It is thus hypothesized that the
+evolving nature of ensembles can serve as a timestamp for temporally discrete
+events, even when the experiences took place in identical familiar environments.
+At the same time, a subset of neurons that is presented in multiple ensembles
+could code for a stable representation of the environments. However, it was
+unclear whether such time-stamping has any behavior correlates, and moreover,
+whether memories happened at different times can be associated together.
 
-Explain the importance of the problem or critical barrier to progress in the field that the proposed project addresses.
+Consistent with the time-stamping hypothesis, it is recently found in rodent
+hippocampus that the neuronal ensembles of two neutral contextual memories
+separated by 5 hours time interval has more overlapping cells than those
+separated by 2 days or 7 days. Interestingly, subsequent fear conditioning in
+the later context induce elevated freezing level in the former context when the
+two contexts are separated by 5 hours, indicating a transfer of fear memory from
+the second context to the first. Such results suggest a linking of two
+temporally distinct memories through overlapping neuronal ensembles. However,
+two important questions remain unclear for the memory linking phenomenon:
+\begin{inparaenum}[a)] \bfseries
+\item whether and how the subjective value of the experiences affect the
+  temporal window of memory linking.
+\item whether and how the temporal order of the experiences affect the temporal
+  window of memory linking.
+\end{inparaenum}
+From a psychological perspective, these two questions are highly relevant to our
+day-to-day experiences and thus important for the implication of memory linking,
+since:
+\begin{inparaenum}[a)]
+\item relating a highly favorable/traumatic memory to other (potentially causal)
+  experiences is more beneficial than relating a neutral memory to others, so
+  that the animal may learn to engage/avoid the same highly significant
+  experience in the future.
+\item relating a memory to past experiences is more beneficial than relating a
+  memory to future experiences, since only past experiences may have a causal
+  role which is important to learn.
+\end{inparaenum}
+Moreover, answering these two questions may hint on the potential mechanism of
+memory linking. It has been hypothesized that memory linking happens through
+excitability mechanism, where the ensemble neurons of first memory sustain an
+elevated excitability during the memory linking time window, and thus are more
+likely to be recruited during the encoding of the second memory, facilitating
+the linking of the two memory. If such hypothesis is true, we should expect an
+unbiased memory linking, where neither the affective value of the second memory
+nor the temporal order of the two memories would affect the time window of
+memory linking. Such result would further support the time-stamping hypothesis,
+and would suggest memory linking to be a result of constant spontaneous turn
+over of ensemble. Alternatively, if the affective value or the temporal order of
+the two memories has an effect on memory linking, it suggests a more top-down,
+potentially learning guided mechanism may be responsible for memory linking.
+Thus, the main goal of this proposal is to study the effect of affective value
+and temporal order on memory linking. The results would extend our knowledge on
+memory linking and more generally episodic memory.
 
-Explain how the proposed project will improve scientific knowledge, technical capability, and/or clinical practice in one or more broad fields.
+In addition, the analysis of neural recording data in memory linking experiments
+have been limited to comparing overlapping ensemble cells that are active during
+recording sessions. Such analysis provided a simple estimation of
+similarities between ensembles and successfully supported behavior data.
+However, it reduces the time dimension of each recording session to a binary,
+``active-or-not'' representation, precluding any analysis on the structure of
+the ensemble within session. This limitation is mainly due to the task-free and
+one-trial-learning nature of memory linking, where there is no task
+variables to align the recording data to, nor is there enough time for place
+cells to be formed and detected. Dimension reduction approaches, or more
+specifically principal component analysis (PCA) is a very useful tool in such
+circumstances, since it can transform higher dimension recording data to lower
+dimension, temporally structured components in an unsupervised manner. Thus
+another goal of the presented proposal is to apply PCA analysis to neural
+recording data during memory linking experiments. Such analysis could uncover
+the underlying structures of memory ensembles, and help us understand the nature
+of memory linking on the ensemble level.
 
-Describe how the concepts, methods, technologies, treatments, services, or preventative interventions that drive this field will be changed if the proposed aims are achieved.
-
-\begin{description}
-\item[A.2. Subheading.]{}
-\end{description}
-
-\begin{wraptable}{r}{4.8cm} % Example table with text wrapping around it
-\caption{Example Table}
-\begin{center}
-\begin{tabular}{l l r}
-\toprule
-\multicolumn{1}{c}{City} & {N\textsuperscript{a}} & {\%Silly}\\
-\midrule
-San Diego & 289 & 41\%\\
-Seattle & 262 & 32\%\\
-Galveston & 261 & 15\%\\
-St Louis & 269 & 7\%\\
-New York & 271 & 4\%\\
-Baltimore & 231 & 2\%\\
-\emph{Total} & 1,586 & 21\%\\
-\hline 
-\end{tabular}\\
-\footnotesize\textsuperscript{a}{All participants clowns.}
-\end{center}
-\label{default}
-\end{wraptable}
-
-\lipsum[8-10]
-
-\begin{wrapfigure}{r}{6.8cm} % Example figure with text wrapping around it
-\includegraphics[scale=0.9]{Figures/Fig1.pdf}
-\caption{\footnotesize Example wrapped figure. (A) Impressive microscopy image. (B) Impressive data.}
-\end{wrapfigure}
-
-\lipsum[5]
-
-\begin{description}
-\item[A.3. Another subheading:]{optional subtitle.}
-\end{description}
-
-\lipsum[25]
-
-\begin{figure}[b] % Centered big figure at bottom of the page ([b] argument, could be "t" for top or "h" for here)
-\centering
-\includegraphics[scale = .80]{Figures/Fig2.pdf}
-\caption{\footnotesize Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend Big Figure legend.}
-\label{fig2}
-\end{figure}
-
-\lipsum[31-32]
-
-\begin{description}
-\item[A.4. Yet another subheading.]{}
-\end{description}
-
-\lipsum[55-56]
 
 \end{document}
