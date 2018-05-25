@@ -10,7 +10,7 @@
 \begin{wrapfigure}{r}{0.5\textwidth}
   \centering \includegraphics[scale = .4]{Figures/pro_retro_prelim.pdf}
   \caption{\footnotesize Prospective memory linking window is longer than
-    retrospective linking window for a negative memory}
+    retrospective linking window for a negative memory.}
   \label{fig:prelim_pro_retro}
 \end{wrapfigure}
 
@@ -36,12 +36,13 @@ able to transfer backward up to 2 days. Taken together, these results suggest an
 extended temporal window of retrospective memory linking comparing to
 prospective memory linking.
 
-\subsection*{Negative emotional valence extend temporal window of memory linking}
+\subsection*{Negative emotional valence extend temporal window of memory
+  linking}
 
 \begin{wrapfigure}{l}{0.5\textwidth}
   \centering \includegraphics[scale = .4]{Figures/val_retro_prelim.pdf}
   \caption{\footnotesize Negative valence increased temporal window of memory
-    linking}
+    linking.}
   \label{fig:prelim_val}
 \end{wrapfigure}
 
@@ -85,5 +86,32 @@ between the neural overlaps of the two ensembles during encoding of the two
 contexts, suggesting that the changes in the overlaps of the representation of
 the two contexts, possibly memory linking as well, happened during offline
 periods between the initial encoding and the testing of the memories.
+
+\subsection*{Minian: a python analysis pipeline for calcium imaging data}
+
+One of the challenge facing miniature microscope in behaving animals is the
+analysis of calcium imaging data. Previously, a constrained non--negative matrix
+factorization algorithm has been developed to extract calcium traces of
+different neurons from raw video. However, a lack of user-friendly interface and
+visualization tools for result inspection limit its popularity among community.
+Moreover, a method of cross-registering neurons across sessions has not been
+integrated into the analysis pipeline. To address these issues and facilitate
+the analysis of imaging data, we have developed a pipeline based on jupyter
+notebook, which is a document format that combines codes and texts. The adoption
+of jupyter notebook enables us to take and share text notes, edit and execute
+codes, as well as dynamically visualize results all in an integrated document,
+so that we can easily share reproducible analysis to the community
+(\autoref{fig:prelim_minian}). Furthermore, a simple cross-registration method
+based on euclidean distance of centroids of neurons has been integrated into the
+pipeline. Application of this method to our preliminary data shows that the
+method could identify same neurons across sessions with satisfactory accuracy.
+
+\begin{figure}[!h]
+  \centering \includegraphics[scale = .135]{Figures/minian.png}
+  \caption{\footnotesize integration of notes, codes and visualization of
+    results in a single document.}
+  \label{fig:prelim_minian}
+\end{figure}
+
 
 \end{document}
