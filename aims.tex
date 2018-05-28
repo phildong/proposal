@@ -9,73 +9,83 @@ together is crucial to understanding episodic memories, since the ability to
 relate episodes across days is essential to the formation of memory. Recently it
 has been demonstrated in rodents that two neutral contexts experienced close in
 time shared a larger proportion of neural ensemble than those experienced more
-distant in time . Furthermore, subsequent fear conditioning in the second
-context increased animals' freezing level in the first context, suggesting a
-transfer of fear memory retrospectively \cite{cai_shared_2016}. These results
-suggest that memories that have a small temporal distance can be linked
-together. However, it remains unclear what factors may affect the temporal
-window of memory linking. Specifically, it is unknown whether the affective
-value of a memory influences the time window within which it may be linked to a
-previous memory. Moreover, it is not clear whether memory linking can happen
-prospectively, where the associated fear of a previous context may be
-transferred to a later context. Furthermore, if there is prospective memory
-linking, it is interesting to see whether the temporal window of prospective
-memory linking is similar to those in retrospective linking, \textit{i.e}
-whether memory linking is symmetric regarding the temporal order of memories.
-Thus, the main goal of this proposal is to study how affective value and
-temporal order affect the time window of memory linking, with both behavioral
-experiments and calcium imaging in behaving animals.
+distant in time. Furthermore, subsequent fear conditioning in the later context
+increased animals' freezing level in the previous context, suggesting a transfer
+of fear memory retrospectively. Such results suggest a
+linking of two temporally distinct memories through overlapping neuronal
+ensembles, and the phenomenon is termed memory linking. However, it remains
+unclear what factors may affect the temporal window of memory linking, which is
+the maximum time interval within which two memories can be linked together.
+Specifically, it is unknown whether the affective valence of a memory influences
+the extent or the symmetry of the temporal window of memory linking. For
+instance, it is unclear whether negative valence of a memory could extend the
+time window within which it may be linked to a previous memory. Moreover, it is
+not clear whether a negative memory could link forward with a memory that
+happens later in time, (\textit{i.e} linking to a memory prospectively).
+Furthermore, it's unclear whether such prospective memory linking has a similar
+time window as retrospective memory linking (\textit{i.e} whether the time
+window is symmetric regarding the temporal order of memories). Thus, the main
+goal of this proposal is to study how affective value and temporal order affect
+the temporal window of memory linking, with both behavioral experiments and
+calcium imaging in behaving animals.
 
-It has been shown that two neutral contexts can be linked together when they are
-separated by 5 hours, but not when they are separated by 2 days. We have
-preliminary results suggesting that negative-valued context can be linked with a
-neutral context 2 days ago, and they have larger proportion of overlapping
-ensemble cells comparing to two neutral contexts. Thus, our first hypothesis is
-that negative emotional value extend the temporal window of memory linking
-retrospectively. On the other hand, we have preliminary results showing that a
-negative-valued context can link both backward and forward with a neutral
-context across 5 hours time interval, but can only link backward, but not
-forward, across 1 day and 2 days interval. Thus, our second hypothesis is that
-negative-valued memory have a longer retrospective memory linking window
-compared to prospective linking window. To test these hypothesis, we will carry
-out behavior experiments utilizing contextual fear conditioning, as well as
-\textit{in vivo} calcium imaging in freely moving animals.
+One of the hypothesis that could explain memory linking is the excitability
+hypothesis, which states that the neurons encoding an earlier memory have a
+transient increase in excitability, making them more likely to be active during
+the encoding of a later memory, thus resulting in an increase of ensembles
+overlap between the two memories. Such increase in the ensembles overlap, in
+turn, may drive memory linking. Since it has been shown that negative valence
+increase neuron excitability, it is expected that neurons engaged in a negative
+memory sustain an elevated level of excitability longer than those in a neutral
+memory. Thus, for a negative memory, the excitability model would predict a
+longer temporal window for prospective memory linking comparing to retrospective
+memory linking. Furthermore, the excitability model would not predict a change
+of retrospective memory linking window as a function of emotional valence.
+However, from an ethological point of view, retrospective memory linking is more
+important than prospective memory linking, since past memories may have a causal
+contribution to future events, but not the other way around. Moreover, memory
+linking of more negative events should extend further back in time, since that
+helps animals to gather more information to avoid future traumatic events. In
+fact, we have preliminary data suggesting that negative valence increase the
+retrospective memory linking window, and that retrospective memory linking
+window is longer than prospective linking window. Thus, we hypothesis that
+negative emotional valence extend retrospective memory linking time window, and
+that retrospective memory linking time window is longer than those in
+prospective memory linking. To test these hypothesis, we will carry out behavior
+experiments utilizing contextual fear conditioning, as well as \textit{in vivo}
+calcium imaging in freely moving animals.
 
-In addition, the analysis of neural dynamic in memory linking experiments have
-been limited to comparing the number of overlapping active ensemble cells across
-different sessions. Although such analysis provided a strong correlate of
-behavior results, it reduces time dimension to a binary, all-or-none
-representation, thus precluding the possibility of understanding the temporal
-structure of ensemble as well as the evolving nature of population coding within
-session. By applying dimension reduction analysis such as principal component
-analysis (PCA), we can uncover the underlying structures of neural ensembles for
-individual sessions and compare their similarities across linking memories
-versus non-linking memories. Our hypothesis is that the linked memories have
-higher similarities in ensemble structures compared to non-linked memories. To
-test this hypothesis, we can apply PCA analysis to calcium traces recorded at
-different behavior sessions. The resulting principal components can be thought
-of as subset of cells that exhibit highly correlated firing. We can then
-calculate a correlation of the components across different sessions, and compare
-the correlation between linking contexts with those between non-linking
-contexts. We predict that the correlation of structured ensemble components are
-higher for linking contexts comparing to non-linking contexts.
+Besides behavior, the other important aspect of memory linking is an increase of
+overlaps between the ensembles of two linked memories. Thus, our second goal is
+to study the neural correlates of memory linking during the manipulation of
+emotional valence and temporal order of contexts. To achieve this goal, we will
+carry out calcium imaging in behaving animals. One of the difficulties facing
+this approach is the analysis of imaging data. Various algorithms have been
+developed to extract calcium traces from raw videos, however a user-friendly
+pipeline is lacking. Thus our first step towards this goal is to develop
+analysis pipeline that can visualize the extraction results and register neurons
+across recording sessions, so that we may compare neural ensembles across
+sessions. We hypothesize that if the temporal window of memory linking changed,
+and transfer of fear is observed between two contexts, the overlaps between the
+ensembles encoding the two contexts should also increase. In addition, by
+applying dimension reduction analysis such as principal component analysis
+(PCA), we can uncover the underlying temporal structures of neural ensembles for
+individual sessions. Thus we also hypothesize that the similarities between
+principal components of two ensembles are higher if the corresponding contexts
+are linked together. In other words, the similarities between principal
+components of two memory ensembles should be consistent with the overlaps
+between the two ensembles.
 
-\paragraph{Aim 1: Study the behavioral effect of emotional value and temporal
-  order on memory linking.}
+\paragraph{Aim 1: Study the effect of emotional value on the extent and symmetry
+  of the temporal window of memory linking.} Test the hypothesis that negative
+emotional value extend retrospective memory linking time window, and that
+retrospective memory linking time window is longer than those in prospective
+memory linking.
 
-\subparagraph{Aim 1a:} Test the hypothesis that negative emotional value extend
-retrospective memory linking window.
-
-\subparagraph{Aim 1b:} Test the hypothesis that negative valued memory has a
-longer retrospective memory linking window compared to prospective memory
-linking.
-
-\paragraph{Aim 2: Test the hypothesis that overlap in neural ensembles correlate
-  with the behavior effect of emotional value and temporal order on memory
-  linking.}
-
-\paragraph{Aim 3: Test the hypothesis that linked memories have higher
-  similarity of ensemble structures compared to non-linked memories.}
+\paragraph{Aim 2: Study the neuronal correlate of memory linking.} Develop
+analysis pipeline for calcium imaging data. Test the
+hypothesis that linked memories have larger neural ensemble overlaps, and that
+linked memories also has more similarities in ensemble structures.
 
 \newpage
 

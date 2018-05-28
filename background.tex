@@ -4,23 +4,59 @@
 
 \section*{A. Significance}
 
-Understanding how temporally distinct memories can be related together is
-essential to understanding episodic memory. It is generally believed that
-hippocampus make an important contribution to episodic memory in rodents.
-Traditionally, studies have focused on how familiar environments are coded in
-hippocampus. Most notably, we have extensive knowledge of how space is coded in
-distinct familiar settings, as well as how time is coded in learned task
-contingencies. On the other hand, it is found that different population of
-hippocampal neurons are engaged in memories at different times, forming a
-neuronal ensemble of the memory, and artificially stimulating a specific
-ensemble can create a ``false'' memory. Moreover, it has been shown that neural
-ensembles of same environments overlap in a time-dependent manner, in that
-ensembles of two memories happened closer in time share more neurons than those
-happened further apart in time, and the shared neurons could potentially
-maintain a stable representation of the environment. However, it was unclear
-whether overlaps of ensembles encoding different contexts have a similar
-time-dependent property, and whether such difference in overlaps have any
-behavior correlates.
+It is generally believed that hippocampus make an important contribution to
+episodic memories in rodents. Traditionally, studies on hippocampal neuronal
+coding have been focused on how information are encoded in the \textbf{activity
+  pattern} of neurons. Usually, such studies involve measuring neuronal
+activities during repeated retrieval of same memory, and measure how the
+activities of neurons respond consistently to a behavior variable across
+retrieval sessions. For instance, ``place cells'' have been found to encode the
+location of the animal in a familiar environment \cite{hartley_space_2014}, and
+``time cells'' have been found to encode elapsed time during well--learned,
+time--dependent tasks \cite{eichenbaum_time_2014}. On the other hand, another
+trend of studies have focused on how information might be encoded in the
+\textbf{identity} of neurons. For example, the idea of ``neural ensemble''
+states that different population of neurons are engaged in the encoding of
+different memories, and memory retrieval happens through the reactivation of the
+corresponding neural population. The population of neurons that encode a memory
+is thus termed the ensemble of the said memory. Indeed, it is found that
+artificially stimulating an ensemble is sufficient to drive the retrieval of the
+corresponding memory and elicit behavior response \cite{ramirez_creating_2013}.
+The two distinct but not mutually exclusive types of hippocampal coding ---
+through activity pattern and through neuron identity --- can be brought together
+by a conceptual framework coined as ``memory space''
+\cite{eichenbaum_hippocampus_1999}. Briefly, it is hypothesized in the ``memory
+space'' concept that the activities of cells encode details of a memory episode,
+such as stimulus, location and time, whereas the common cells that are shared
+across episodes, or the overlapping neuron population between ensembles, may
+serve as ``nodes'' that bridge together different memory episodes. In other
+words, the neuronal activities encode information within episodes, while the
+identity of ensembles encode relationship between episodes. Consistent with this
+concept, it is found that the ensembles of the \textbf{same} familiar
+environment ``drift'' across time, so that different but overlapping ensembles
+were activated during the retrieval of memory of the same environment at
+different times. More importantly, it is found that the overlap between
+ensembles depend on time, in that ensembles of episodes that happened closer in
+time share more neurons in common. Moreover, it is found that the subset of
+neurons that were active across all retrieval episodes sustain a stable spatial
+map of the environment so that the location of the animals can be reliably
+decoded with only the activities from this subset of cells. Taken together,
+these results suggest that overlapping neurons between ensembles encode
+relationship between memory episodes, in that they encode both the information
+that is common across episodes (the same spatial environment) and the temporal
+relationship of episodes (the temporal distances between them), which is
+consistent with the prediction of ``memory space'' concept
+\cite{rubin_hippocampal_2015}. However, two important aspects of the ``memory
+space'' concept remained untested:
+\begin{inparaenum}[a)]
+\item whether the ensembles overlap also encode temporal distance between
+  memories of \textbf{different} contexts;
+\item whether the overlapping ensemble can actually drive the ``bridging'' of
+  different memory episodes.
+\end{inparaenum}
+Understanding how distinct memories can be related together is essential to
+understanding episodic memory, since the ability to associate different episodes
+across long periods of times is essential to forming memories.
 
 Recently, it has been found in rodent hippocampus that the neuronal ensembles of
 two distinct contextual memories separated by 5 hours time interval has more
@@ -29,39 +65,52 @@ subsequent fear conditioning in the later context induce elevated freezing level
 in the former context when the two contexts are separated by 5 hours, indicating
 a transfer of fear memory from the second context to the first. Such results
 suggest a linking of two temporally distinct memories through overlapping
-neuronal ensembles. Following these findings, two models have been proposed to
-explain the phenomenon of memory linking: On cellular and circuit level, It has
-been hypothesized that memory linking happens through excitability mechanism,
-where the ensemble neurons of first memory sustain an elevated excitability
-during the memory linking time window, and thus are more likely to be recruited
-during the encoding of the second memory, facilitating the linking of the two
-memory; At the same time, from a conceptual and computational aspect, temporal
-context model suggests that memory linking is a peculiar case of a more general
-temporal context framework, which argues that features of memories are
-associated with an ever-drifting temporal context, and all recollection of
-episodic memories, as well as formation of semantic memories, happen through the
-retrieval of the associated temporal context.
+neuronal ensembles, and the phenomenon is termed memory linking
+\cite{cai_shared_2016}. Following these findings, two models have been proposed
+to explain the phenomenon of memory linking: On cellular and circuit level, It
+has been hypothesized that memory linking happens through excitability
+mechanism, where the ensemble neurons of first memory sustain an elevated
+excitability during the memory linking time window, and thus are more likely to
+be recruited during the encoding of the second memory, facilitating the linking
+of the two memory \cite{kastellakis_linking_2016}; At the same time, from a
+conceptual and computational aspect, temporal context model suggests that memory
+linking is a peculiar case of a more general temporal context framework, which
+argues that features of memories are associated with an ever-drifting temporal
+context, and all recollection of episodic memories, as well as formation of
+semantic memories, happen through the retrieval of the associated temporal
+context \cite{howard_temporal_2005}.
 
-However, two important and inter-related questions remain unclear for the
-memory linking phenomenon:
+However, various aspects of memory linking remain under-studied. Most notably,
+it is unclear what factors affect the temporal window of memory linking, defined
+as the maximum time interval within which two memories could be linked together.
+Besides, the effect of temporal order on memory linking remains unclear - it has
+been demonstrated that memory linking can happen retrospectively, in that the
+fear associated with a later memory can transfer back to a neutral memory that
+happened earlier. It is unknown, however, whether memory linking could happen
+prospectively, where the fear associated with a memory can transfer forward to a
+neutral memory that happens later in time. Moreover, if prospective memory
+linking exists, it is interesting to see whether it has a same temporal window
+as retrospective memory linking. Taken together, two important and inter-related
+questions remain unclear for the memory linking phenomenon:
 \begin{inparaenum}[a)] \bfseries
 \item whether and how the temporal order of the experiences affect the temporal
   window of memory linking.
-\item whether and how negative emotional value of the experiences affect the
-  temporal window of memory linking.
+\item whether and how negative emotional valence of the experiences affect the
+  retrospective temporal window of memory linking.
 \end{inparaenum}
-Regarding the first question, the excitability hypothesis would predict no
-effect of temporal order, \textit{i.e.} a memory would link to a past memory
-equally well as to a future memory, whereas temporal context model would predict
-a stronger prospective memory linking, \textit{i.e.} a memory would share more
-overlapping ensemble and have stronger association with the other memory that
-happens later in time. Regarding the second question, the excitability
-hypothesis would predict an effect of negative emotional value on prospective
-memory linking, so that a memory that has a more negative value, comparing to a
-neutral memory, would have a stronger association with memories in the future,
-but not in the past. Meanwhile, the temporal context model would fail to provide
-a prediction regarding the second question since emotional valence has not been
-integrated into the model.
+Regarding the first question, the excitability hypothesis would predict longer
+memory linking window for prospective memory linking, since negative emotional
+valence increase the excitability of neurons, making them sustain an elevated
+excitability for longer period of time comparing to those engaged in neutral
+memories, thus extend the time window where a negative memory could be linked to
+a neutral memory in the future, but not in the past. Similarly, the temporal
+context model would predict a stronger prospective memory linking as well.
+Regarding the second question, the excitability hypothesis would not predict an
+effect of negative emotional valence on retrospective memory linking, since the
+excitability of neurons engaged in a neutral memory should not be affect by
+emotional valence of a memory happens in the future. Meanwhile, the temporal
+context model would fail to provide a prediction regarding the second question
+since emotional valence has not been integrated into the model.
 
 However, from a ethological perspective, the predictions regarding the two
 questions would be different from those predicted by the two existing models.
@@ -80,27 +129,28 @@ experience (consumption of food), and such association depends on the valence of
 the negative valence (how much sickness was induced).
 
 Thus, the main goal of this proposal is to study the effect of temporal order
-and emotional value on memory linking. The study would help us understand the
+and emotional valence on memory linking. The study would help us understand the
 mechanism and behavioral significance of memory linking, and may extend our
 knowledge on episodic memory in general.
 
-In addition, the analysis of neural recording data in memory linking experiments
-have been limited to comparing overlapping ensemble cells that are active during
-recording sessions. Such analysis provided a simple estimation of
-similarities between ensembles and successfully supported behavior data.
-However, it reduces the time dimension of each recording session to a binary,
-``active-or-not'' representation, precluding any analysis on the structure of
-the ensemble within session. This limitation is mainly due to the task-free and
-one-trial-learning nature of memory linking, where there is no task
-variables to align the recording data to, nor is there enough time for place
-cells to be formed and detected. Dimension reduction approaches, or more
-specifically principal component analysis (PCA) is a very useful tool in such
-circumstances, since it can transform higher dimension recording data to lower
-dimension, temporally structured components in an unsupervised manner. Thus
-another goal of the presented proposal is to apply PCA analysis to neural
-recording data during memory linking experiments. Such analysis could uncover
-the underlying structures of memory ensembles, and help us understand the nature
-of memory linking on the ensemble level.
+In addition to behavior, it is important to see whether there is neural
+correlates of memory linking in hippocampus. Traditionally, the analysis of
+neural recording data in memory linking experiments have been limited to
+comparing overlapping ensemble cells that are active during recording sessions.
+Such analysis provided a simple estimation of similarities between ensembles and
+successfully supported behavior data. However, it reduces the time dimension of
+each recording session to a binary, ``active-or-not'' representation, precluding
+any analysis on the structure of the ensemble within session. This limitation is
+mainly due to the task-free and one-trial-learning nature of memory linking,
+where there is no task variables to align the recording data to, nor is there
+enough time for place cells to be formed and detected. Dimension reduction
+approaches, or more specifically principal component analysis (PCA) is a very
+useful tool in such circumstances, since it can transform higher dimension
+recording data to lower dimension, temporally structured components in an
+unsupervised manner. Thus another goal of the presented proposal is to apply PCA
+analysis to neural recording data during memory linking experiments. Such
+analysis could uncover the underlying structures of memory ensembles, and help
+us understand the nature of memory linking on the ensemble level.
 
 
 \end{document}
