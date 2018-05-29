@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92+devel (unknown)"
-   sodipodi:docname="val_retro_prelim_new.svg"
+   sodipodi:docname="val_retro_prelim.svg"
    inkscape:label="denise">
   <defs
      id="defs2">
@@ -1946,10 +1946,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.18758358"
-     inkscape:cx="2987.754"
+     inkscape:cx="2380.0249"
      inkscape:cy="695.39097"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1749"
+     inkscape:current-layer="g1213"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -1982,7 +1982,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3014,7 +3014,7 @@
                    x="-66.880058"
                    y="8.9514456"
                    id="tspan1563"
-                   style="stroke-width:0.26458332">2d</tspan></tspan></text>
+                   style="stroke-width:0.26458332">4d</tspan></tspan></text>
           </g>
           <g
              transform="translate(332.15115,14.662979)"
