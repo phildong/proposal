@@ -63,7 +63,125 @@ either 5 hours, 2 days or 4 days, but not 7 days. Such result would suggest that
 more negative emotional value of a memory can extend the memory linking time
 window retrospectively.
 
-\subsection*{Aim 2: Study the neuronal correlate of memory linking.}
+\subsection*{Aim 2: Study how ensemble dynamic contribute to memory linking.}
+
+\begin{figure}[!b]
+  \centering \includegraphics[scale = .135]{Figures/exp_imag.pdf}
+  \caption{\footnotesize imaging experiment design}
+  \label{fig:exp_imag}
+\end{figure}
+
+To study how ensemble dynamic contribute to memory linking, we will carry out
+calcium imaging studies shown in \autoref{fig:exp_imag}. The design was similar
+to the behavior experiments in previous aim. Briefly, the animals are placed in
+context A to explore, then after a variable time interval, the animals are
+placed in context B, where they receive a delayed shock at second minute. Then
+two days later, the animals are put back in context A, context B, and a novel
+context C in that order for testing. Calcium imaging in behaving animals are
+carried out in all sessions. Thus the neural dynamics during all sessions can be
+collected and analyzed.
+
+For simplicity, we use uppercase letters combined with numbers to denote the
+population of neurons that were active during a recording session: we use $A1$
+and $A2$ to denote neurons that are active during the encoding and retrieval
+session of context A, respectively. We use $B1_{pre}$ and $B1_{post}$ to denote
+cells that active before and after the delivery of the shock during the encoding
+session of context B. In addition, we use $B2$ to denote active neurons in the
+retrieval session of context B, and lastly we use $C$ to denote the active
+neurons encoding context C. Additionally, we use set operation conventions to
+denote the specific population of neurons that we are interested in.
+Specifically, we use set intersection ``$\cap$''to denote the population of
+neurons that are active in both sessions. For example, $A1 \cap A2$ denote the
+cells that are active in both the encoding and the retrieval session of context
+A. Moreover, we use set difference ``$\setminus$''to denote the population of
+neurons that are active in the first session but not the second session. For
+example, $A1 \setminus A2$ denote the cells that are active only during the
+encoding session of context A, but not reactivated during the retrieval session
+of context A. Finally, we use ``$N\{\ldots\}$'' to denote the number of cells in
+the population that we are interested in. For example, $N\{A1\}$ denote the
+total count of cells that are active during the encoding of context A.
+
+To test whether representation of one context become more similar to the other
+after encoding, we first look at the reactivation rate of the neurons initially
+encoding a context during the retrieval of that context. Specifically, we
+calculate reactivation rate as the following:
+\begin{align*}
+  R_{A1} & = \frac{N\{A1 \cap A2\}}{N\{A1\}} \\
+  R_{B1pre} & = \frac{N\{B1_{pre} \cap B2\}}{N\{B1_{pre}\}} \\
+  R_{B1post} & = \frac{N\{B1_{post} \cap B2\}}{N\{B1_{post}\}} \\
+\end{align*}
+where $R_{A1}$, $R_{B1pre}$, $R_{B1post}$ denote the reactivation rate of the
+ensembles for context A, pre-shock phase for context B, and post-shock phase for
+context B, respectively. In addition, we also want to look at whether one
+context become more similar to the other after encoding. To test this, we can
+calculate a reactivation rate of the neurons initially encoding one context
+during the retrieval of the other context. Specifically, we calculate the rate
+as the following:
+\begin{align*}
+  R_{BA} & = \frac{N\{A1 \cap B2\}}{N\{A1\}} \\
+  R_{ABpre} & = \frac{N\{B1_{pre} \cap A2\}}{N\{B1_{pre}\}} \\
+  R_{ABpost} & = \frac{N\{B1_{post} \cap A2\}}{N\{B1_{post}\}} \\
+\end{align*}
+Conceptually, $R_{BA}$ indicate how close is the representation of context B
+during retrieval to the initial representation of context A. Similarly,
+$R_{ABpre}$ and $R_{ABpost}$indicate how close is the representation of context
+A during retrieval to the initial pre-shock or post-shock representation of
+context B, respectively. If there is a drift of the representation of one
+context towards the other after encoding, we should see a decrease of
+reactivation rate of that context between encoding and retrieval, as well as a
+higher overlap between the retrieval of that context and the encoding of the
+other context.
+
+To study how different ensembles during encoding may contribute to the overlap
+during the retrieval, we can calculate the proportion of cells during encoding
+that also serve as the overlapping cells during retrieval. Specifically:
+\begin{displaymath}
+  C_{X} = \frac{N\{X \cap (A2 \cap B2) \setminus (A2 \cap B2 \cap C)\}}{N\{X\}}
+\end{displaymath}
+where $X$ is one of the three ensembles during encoding, that is: $A1$,
+$B1_{pre}$, or $B1_{post}$. The term $(A2 \cap B2) \setminus (A2 \cap B2 \cap
+C)$ give us the population of neurons that are active specifically in both the
+retrieval of context A and B, but not active during all three retrieval sessions
+of context A, B and C. The intersection between this population and the
+ensembles of one of the encoding sessions will then estimate the contribution of
+neurons from one of the encoding sessions to this specific population that may
+drive memory linking. Thus, $C_{A1}$, $C_{B1pre}$ and $C_{B1post}$ will indicate
+the contributions to the overlap during retrieval from the ensembles encoding
+context A, pre-shock phase of context B, and post-shock phase of context B
+respectively. We can then compare these three rate to see whether different
+ensembles during encoding contribute equally to the population of neurons that
+may drive memory linking.
+
+Lastly, in line with the excitability hypothesis, we expect the activity level
+of a neuron should affect the likelihood of that neuron being reactivated during
+future sessions. Specifically, for each neuron, the activity level of that
+neuron can be summarized by the area-under-the-curve of the calcium trace of
+that neuron. By taking a z-score of such activity level across all neurons in a
+recording session, we can obtained a centered activity level for each neuron
+that's also normalized to the overall activity level of all neurons in that
+session. We can denote such centered and normalized activity level in session X
+as $A_X\{\ldots\}$, where $\ldots$ indicate a specific population we are
+interested in. Then, for any given two recording session $X$ and $Y$, where $X$
+happens before $Y$, four quantities can be calculated and compared:
+\begin{align*}
+  Activity_{X}^{common} & = A_X\{X \cap Y\} \\
+  Activity_{X}^{alone} & = A_X\{X \setminus (X \cap Y)\} \\
+  Activity_{Y}^{common} & = A_Y\{X \cap Y\} \\
+  Activity_{Y}^{alone} & = A_Y\{Y \setminus (X \cap Y)\}
+\end{align*}
+$Activity_{X}^{common}$ indicate the activity level in $X$ of those cells that
+were reactivated in $Y$, whereas $Activity_{X}^{alone}$ indicate the activity
+levels in $X$ of the cells that were only activated during $X$, but not $Y$. We
+can then compare the mean of $Activity_{X}^{common}$ and $Activity_{X}^{alone}$.
+According to excitability hypothesis, we expect to see higher
+$Activity_{X}^{common}$ than $Activity_{X}^{alone}$, since the activity level in
+$X$ should affect whether they are reactivated in later sessions. On the other
+hand, we expect no difference between $Activity_{Y}^{common}$ and
+$Activity_{Y}^{alone}$, since the activity level of cells in the later session should not
+affect whether they are co-activated in both sessions.
+
+\subsection*{Aim 3: Develop analysis pipeline for calcium imaging with miniature
+  microscope.}
 
 To study the neural correlate of memory linking, we would carry out miniature
 calcium imaging in behaving animals. We choose miniature calcium imaging due to
