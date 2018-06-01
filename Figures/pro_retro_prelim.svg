@@ -1035,9 +1035,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.13264162"
-     inkscape:cx="1862.2756"
-     inkscape:cy="1999.7007"
+     inkscape:zoom="0.37516716"
+     inkscape:cx="2388.5968"
+     inkscape:cy="1938.5247"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      inkscape:document-rotation="0"
@@ -1069,7 +1069,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3104,7 +3104,7 @@
                    x="122.12078"
                    y="161.73962"
                    style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-                   id="tspan153">0.75 mA shock</tspan></text>
+                   id="tspan153">0.5 mA shock</tspan></text>
               <g
                  id="g149"
                  inkscape:label="ctx"
@@ -3444,7 +3444,7 @@
                    style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
                    y="161.73962"
                    x="122.12078"
-                   sodipodi:role="line">0.75 mA shock</tspan></text>
+                   sodipodi:role="line">0.5 mA shock</tspan></text>
               <g
                  transform="translate(0,-3.0923177)"
                  inkscape:label="ctx"

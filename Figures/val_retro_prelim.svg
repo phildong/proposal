@@ -1946,10 +1946,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.18758358"
-     inkscape:cx="2380.0249"
-     inkscape:cy="695.39097"
+     inkscape:cx="2453.4623"
+     inkscape:cy="1870.8767"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1213"
+     inkscape:current-layer="svg8"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
@@ -2045,7 +2045,7 @@
        id="tspan2071"
        x="901.51093"
        y="17.15382"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332">Negative</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332">Aversive</tspan></text>
   <g
      id="g1749"
      transform="translate(-690.6116,21.791184)"
@@ -2920,7 +2920,7 @@
                    x="122.12078"
                    y="161.73962"
                    style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-                   id="tspan153">0.75 mA shock</tspan></text>
+                   id="tspan153">0.5 mA shock</tspan></text>
               <g
                  id="g149"
                  inkscape:label="ctx"
@@ -3269,7 +3269,7 @@
                    style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
                    y="161.73962"
                    x="122.12078"
-                   sodipodi:role="line">0.75 mA shock</tspan></text>
+                   sodipodi:role="line">0.5 mA shock</tspan></text>
               <g
                  transform="translate(0,-3.0923177)"
                  inkscape:label="ctx"

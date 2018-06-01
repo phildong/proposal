@@ -40,7 +40,7 @@
      inkscape:window-width="1920"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="use1444"
+     inkscape:current-layer="g1479"
      inkscape:document-units="mm"
      inkscape:cy="-205.22154"
      inkscape:cx="1182.1093"
@@ -1146,7 +1146,7 @@
                  style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
                  y="161.73962"
                  x="122.12078"
-                 sodipodi:role="line">0.75 mA shock</tspan></text>
+                 sodipodi:role="line">0.5 mA shock</tspan></text>
             <g
                transform="translate(0,-3.0923177)"
                inkscape:label="ctx"

@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="956.83575mm"
+   width="797.89819mm"
    height="270.14383mm"
-   viewBox="0 0 956.83577 270.14383"
+   viewBox="0 0 797.89821 270.14383"
    version="1.1"
    id="svg8"
    sodipodi:docname="exp_pro_retro.svg"
@@ -151,10 +151,10 @@
     </linearGradient>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="15.5507 : 144.07753 : 1"
-       inkscape:vp_y="0 : 999.99997 : 0"
-       inkscape:vp_z="200.60607 : 171.63453 : 1"
-       inkscape:persp3d-origin="105 : 98.999996 : 1"
+       inkscape:vp_x="15.5507 : 144.07754 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="200.60608 : 171.63454 : 1"
+       inkscape:persp3d-origin="105 : 99.000002 : 1"
        id="perspective23" />
     <linearGradient
        inkscape:collect="always"
@@ -237,8 +237,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.22507243"
-     inkscape:cx="1852.4422"
-     inkscape:cy="746.01289"
+     inkscape:cx="1819.2433"
+     inkscape:cy="785.75202"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      inkscape:document-rotation="0"
@@ -281,7 +281,7 @@
      id="layer1"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(-79.403654,42.626892)">
+     transform="translate(-79.403656,42.626892)">
     <g
        id="g972"
        inkscape:label="ctxS"
@@ -373,7 +373,7 @@
      inkscape:groupmode="layer"
      inkscape:label="ctxN"
      sodipodi:insensitive="true"
-     transform="translate(-79.403654,42.626892)">
+     transform="translate(-79.403656,42.626892)">
     <g
        id="g1009"
        inkscape:label="ctxN">
@@ -458,7 +458,7 @@
      inkscape:groupmode="layer"
      inkscape:label="ctxB"
      sodipodi:insensitive="true"
-     transform="translate(-79.403654,42.626892)">
+     transform="translate(-79.403656,42.626892)">
     <g
        id="g1020"
        inkscape:label="ctxB">
@@ -530,7 +530,7 @@
      inkscape:groupmode="layer"
      inkscape:label="ctxA"
      sodipodi:insensitive="true"
-     transform="translate(-79.403654,42.626892)">
+     transform="translate(-79.403656,42.626892)">
     <g
        id="g1032"
        inkscape:label="ctxA">
@@ -616,7 +616,7 @@
      inkscape:label="shk"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(-79.403654,42.626892)">
+     transform="translate(-79.403656,42.626892)">
     <path
        style="display:inline;fill:#fffb52;fill-opacity:1;stroke:#000000;stroke-width:0.77425164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 112.57513,99.234333 -8.19137,14.187847 6.78162,-1.81713 -2.59761,4.4992 3.27596,-0.87779 -2.31005,8.62119 6.28392,-10.60836 -3.28057,0.51859 3.8083,-5.60327 -4.52494,1.12354 9.47752,-10.454293 z"
@@ -956,7 +956,7 @@
   <g
      id="g3634"
      inkscape:label="experiment_retro"
-     transform="translate(-3.8966957,-35.095892)">
+     transform="translate(-3.8966977,-35.095892)">
     <g
        transform="translate(50.349022,48.917552)"
        inkscape:label="encoding"
@@ -1146,7 +1146,7 @@
                  style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
                  y="161.73962"
                  x="122.12078"
-                 sodipodi:role="line">0.75 mA shock</tspan></text>
+                 sodipodi:role="line">0.5 mA shock</tspan></text>
             <g
                transform="translate(0,-3.0923177)"
                inkscape:label="ctx"
@@ -1296,7 +1296,7 @@
      inkscape:label="experiment_pro"
      id="use3636"
      style="opacity:1"
-     transform="translate(6.2155043,130.34983)">
+     transform="translate(6.2155023,130.34983)">
     <g
        id="g3732"
        inkscape:label="encoding"
@@ -1486,7 +1486,7 @@
                  x="122.12078"
                  y="161.73962"
                  style="font-size:14.11111069px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-                 id="tspan3686">0.75 mA shock</tspan></text>
+                 id="tspan3686">0.5 mA shock</tspan></text>
             <g
                id="g3704"
                inkscape:label="ctx"
@@ -1693,7 +1693,8 @@
          width="100%"
          height="100%"
          inkscape:label="ctxB"
-         transform="translate(640.56604,466.28514)" />
+         transform="translate(640.56604,466.28514)"
+         style="display:none" />
       <g
          transform="translate(739.91361,556.21286)"
          inkscape:label="2d_0"
@@ -1730,7 +1731,7 @@
          width="100%"
          height="100%"
          inkscape:label="ctxC"
-         transform="translate(792.02441,466.39676)" />
+         transform="translate(633.08686,466.39676)" />
       <use
          x="0"
          y="0"
@@ -1748,7 +1749,8 @@
          transform="translate(158.93755)"
          width="100%"
          height="100%"
-         inkscape:label="2d_1" />
+         inkscape:label="2d_1"
+         style="display:none" />
     </g>
     <use
        x="0"
