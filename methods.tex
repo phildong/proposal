@@ -17,29 +17,30 @@ To test hypothesis that retrospective memory linking has a longer temporal
 window than prospective memory linking, we will carry out behavior studies as
 shown in \autoref{fig:exp_behav}. Specifically, animals will be put into two
 distinct contexts and separated into two major groups where the temporal order
-of the two contexts during encoding is opposite for the two major groups. In the
-``prospective'' group, animals will receive a delayed shock in context B first,
-and then explore context A, whereas in ``retrospective'' group, animals will
-explore context A first, and then get a delayed shock in context B. For both
-groups, the exploration sessions will last for 5 minutes, and a foot shock of
-0.5 mA will be delivered at second minute during the encoding session of context
-B. After encoding, both groups will be tested in context A and a novel context C
-in that order 2 days after they are exposed to both context A and B. The time
-interval between the two testing session will be 2 days. During testing,
-animals' behavior will be recorded, and freezing level will be assessed from the
-videos using standard software (Med Associates, Inc.). Within each major group,
-the animals will be further divided into subgroups, and will be equally assigned
-to either 5 hours, 1 day, 2 days or 7 days subgroup, which indicate the time
-interval between the exposure of context A and B. Then within each subgroup,
+of the two contexts during encoding is opposite. In the ``prospective'' group,
+animals will receive a delayed shock in context B first, and then explore
+context A, whereas in ``retrospective'' group, animals will explore context A
+first, and then get a delayed shock in context B. For both groups, the
+exploration sessions will last for 5 minutes, and a foot shock of 0.5 mA will be
+delivered at second minute during the encoding session of context B. After
+encoding, both groups will be tested in context A and a novel context C in that
+order 2 days after they are exposed to both context A and B. The time interval
+between the two testing session will be 2 days. During testing, animals'
+behavior will be recorded, and freezing level will be assessed from the videos
+using standard software (Med Associates, Inc.). Within each major group, the
+animals will be further divided into subgroups, and will be equally assigned to
+either 5 hours, 1 day, 2 days or 7 days subgroup, which indicates the time
+interval between the exposure of context A and B. Then, within each subgroup,
 animals' freezing level in context A during testing can be compared with those
-in the novel context C. An elevated freezing level in the context A, where no
-shock ever occurred for all groups, indicate a transfer of fear and a linking of
-context A and B. Then within each major group, we can estimate the temporal
-window of memory linking by looking at whether context A and B are linked
-together with each temporal intervals. Finally, the temporal window for
-retrospective and prospective memory linking can be compared between the two
-major groups. We expect to see retrospective memory linking across 2 days, while
-the temporal window of prospective memory linking will be shorter than 1 day.
+in the novel context C. An elevated freezing level in context A, where no shock
+ever occurred for all groups, relative to the novel context C, indicates a
+transfer of fear from context B to context A. Then within each major group, we
+can estimate the temporal window of memory linking by looking at whether context
+A and B are linked together with each temporal intervals. Finally, the temporal
+window for retrospective and prospective memory linking can be compared between
+the two major groups. We expect to see retrospective memory linking across 2
+days, while the temporal window of prospective memory linking will be shorter
+than 1 day.
 
 The presented experimental design has 8 unique groups in total. We plan to have
 12 animals assigned to each group, resulting in a total of 96 animals for the
@@ -62,29 +63,29 @@ context C only.
   \label{fig:exp_imag}
 \end{figure}
 
-To study how ensemble dynamic contribute to memory linking, we will carry out
+To study how ensemble dynamics contribute to memory linking, we will carry out
 calcium imaging studies shown in \autoref{fig:exp_imag}. The design is similar
 to the ``retrospective'' group in the behavior experiments proposed in Specific
 Aim 1. Briefly, the animals will be placed in context A to explore, then after
 either 5 hours, 2 days or 7 days, the animals will be placed in context B, where
-they receive a delayed shock at second minute. Then two days later, the animals
+they receive a delayed shock at second minute. Then, two days later, the animals
 are put back in context A, context C, and context B in that order for testing.
-We choose this paradigm since in preliminary studies, we observed an emergence
-of ensemble overlap between context A and B after encoding, with a 2 days time
+We chose this design since in preliminary studies, we observed an emergence of
+ensemble overlap between context A and B after encoding, with a 2 day time
 interval between encoding of context A and B. At the same time, we expect to see
 memory linking when encoding of context A and B are separated by 5 hours, but
 not when they are separated by 7 days. Thus, the 5 hours and 7 days groups serve
-as positive and negative control, respectively.
+as positive and negative controls, respectively.
 
 Before the experiment, all animals will be subjected to surgery procedures where
-virus expressing GCaMP6 are injected into the dorsal CA1 region of hippocampus
-and grin lens are implanted right above the injection site. A base plate will
-also be attached to the skull to secure the grin lens. During experiment,
-miniature microscope will be attached to the base plate and calcium signals will
-be recorded in all sessions. The recorded video will be processed with an
-analysis pipeline described in Specific Aim 3, and calcium traces for individual
-neurons can be extracted with CNMF algorithm. Thus the neural dynamics during
-all sessions can be collected and analyzed.
+virus expressing GCaMP6 is injected unilaterally into the dorsal CA1 region of
+hippocampus and grin lenses are implanted directly above the injection site. A
+base plate will also be attached to the skull to secure the grin lens. During
+behavioral training and testing, miniature microscopes will be attached to the
+base plate and calcium signals will be recorded in all sessions. The recorded
+video will be processed with an analysis pipeline described in Specific Aim 3,
+and calcium traces for individual neurons can be extracted with CNMF algorithm.
+Thus the neural dynamics during all sessions can be collected and analyzed.
 
 For simplicity, we use uppercase letters combined with numbers to denote the
 population of neurons that were active during a recording session as shown in
@@ -97,14 +98,14 @@ session of context B, and lastly we use $C$ to denote the active neurons
 encoding context C. Additionally, we use set operation conventions to denote the
 specific population of neurons that we are interested in. Specifically, we use
 set intersection ``$\cap$''to denote the population of neurons that are active
-in both sessions. For example, $A1 \cap A2$ denote the cells that are active in
+in both sessions. For example, $A1 \cap A2$ denotes the cells that are active in
 both the encoding and the retrieval session of context A. Moreover, we use set
 difference ``$\setminus$''to denote the population of neurons that are active in
 the first session but not the second session. For example, $A1 \setminus A2$
-denote the cells that are active only during the encoding session of context A,
+denotes the cells that are active only during the encoding session of context A,
 but not reactivated during the retrieval session of context A. Finally, we use
 ``$N\{\ldots\}$'' to denote the number of cells in the population that we are
-interested in. For example, $N\{A1\}$ denote the total count of cells that are
+interested in. For example, $N\{A1\}$ denotes the total count of cells that are
 active during the encoding of context A.
 
 To test \textbf{whether representation of one context become more similar to the
@@ -119,7 +120,7 @@ Specifically, we will calculate reactivation rate as the following:
 where $R_{A1}$, $R_{B1pre}$, $R_{B1post}$ denote the reactivation rate of the
 ensembles for context A, pre-shock phase for context B, and post-shock phase for
 context B, respectively. In addition, we will also look at whether one context
-become more similar to the other after encoding. To test this, we can calculate
+becomes more similar to the other after encoding. To test this, we can calculate
 a reactivation rate of the neurons initially encoding one context during the
 retrieval of the other context. Specifically, we will calculate the rate as the
 following:
@@ -194,20 +195,20 @@ analysis are expected to be finished in 18 months.
 
 Besides the analysis proposed above, the rich dataset collected from this
 experiment provides opportunities for other types of analysis. For example, it
-might be the case that each encoding session contribute equally to the ensemble
-overlap between the two linked memories, in other words, the encoding session in
-which a neuron was active cannot predict the likelihood of the said neuron being
+might be the case that each encoding session contributes equally to the ensemble
+overlap between the two linked memories. In other words, the encoding session in
+which a neuron was active cannot predict the likelihood of the said neuron to be
 recruited into the overlapping population of ensembles. Instead, it is possible
 that the overlapping population is biased towards those neurons that were
 encoding an internal state that was common to both memories. For instance,
 neurons correlated with shock delivery or freezing might be preferentially
 recruited as the overlapping neurons between the two ensembles. To investigate
-this possibility, we can correlate the temporal dynamic of the neurons in the
+this possibility, we can correlate the temporal dynamics of the neurons in the
 overlapping population to some external variables such as shock onset or
-freezing episodes, and see whether neurons encoding these information take up a
-high proportion in the overlapping population. Furthermore, the neurons in the
+freezing episodes, and see whether neurons encoding this information make up a
+high proportion of the overlapping population. Furthermore, the neurons in the
 overlapping population of two ensembles might encode information that can not be
-correlate with an explicit variable, for instance, they might encode an abstract
+correlate with an explicit variable. For instance, they might encode an abstract
 ``temporal context''. In such cases, dimension reduction tools that can uncover
 the structure of neuronal dynamics in an unsupervised way might help us
 understand how memory linking happens in general.
@@ -224,23 +225,24 @@ this feature.
 \item The metadata, such as session i.d., animal and experiment need to be
   properly stored and associated with the result of CNMF in order to properly
   organize and index the dataset as a whole. The Python package ``xarray''
-  provides a solution by supporting a labeled N--dimensional  data structure
-  that incorporates data with metadata (labels) in an intuitive manner.
+  provides a solution by supporting a labeled N--dimensional data structure that
+  incorporates data with metadata (labels) in an intuitive manner.
 \item The size of a large dataset usually cannot fit into the RAM space of a
   personal computer. Thus, to visualize and analyze the result of CNMF for
   large--scale datasets, a ``lazy loading'' feature is required where the data
   are only loaded into the RAM when needed (\textit{i.e} when the actual
   computation happens), and will be cleared out of the RAM to make space for
-  other data once the computation is finished. The Python package ``dask'' provide
-  this functionality and support an interface to ``xarray'' out--of--box.
+  other data once the computation is finished. The Python package ``dask''
+  provide this functionality and support an interface to ``xarray''
+  out--of--box.
 \item The visualization of a large dataset can be expensive to generate in terms
   of both time and disk space. Thus, the capability to generate visualization
   dynamically is important. The Python package ``holoviews'' provides this
-  functionality and enable easy visualization of large datasets. It also supports
-  an interface to ``xarray''.
+  functionality and enable easy visualization of large datasets. It also
+  supports an interface to ``xarray''.
 \end{inparaenum}
 We will use the package mentioned above to further develop the analysis pipeline
-for calcium imaging with miniature microscopes. Such a tool will be very valuable
-to the scientific community.
+for calcium imaging with miniature microscopes. Such a tool will be very
+valuable to the scientific community.
 
 \end{document}
