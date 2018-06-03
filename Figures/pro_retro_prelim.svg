@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1021.646mm"
-   height="546.53503mm"
-   viewBox="0 0 1021.646 546.53502"
+   height="530.28265mm"
+   viewBox="0 0 1021.646 530.28264"
    version="1.1"
    id="svg8"
    inkscape:version="0.92+devel (unknown)"
@@ -969,10 +969,10 @@
     </linearGradient>
     <inkscape:perspective
        id="perspective23"
-       inkscape:persp3d-origin="105 : 98.999996 : 1"
-       inkscape:vp_z="200.60608 : 171.63453 : 1"
-       inkscape:vp_y="0 : 999.99994 : 0"
-       inkscape:vp_x="15.550701 : 144.07752 : 1"
+       inkscape:persp3d-origin="104.99999 : 98.999999 : 1"
+       inkscape:vp_z="200.60607 : 171.63454 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="15.5507 : 144.07753 : 1"
        sodipodi:type="inkscape:persp3d" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -1065,9 +1065,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.18758358"
-     inkscape:cx="1378.9255"
-     inkscape:cy="1213.7946"
+     inkscape:zoom="0.26528324"
+     inkscape:cx="1937.3212"
+     inkscape:cy="1188.8937"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
      inkscape:document-rotation="0"
@@ -1087,7 +1087,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true">
     <sodipodi:guide
-       position="-292.10278,368.59833"
+       position="-292.10277,352.34587"
        orientation="1,0"
        id="guide1170" />
   </sodipodi:namedview>
@@ -1130,10 +1130,10 @@
   <g
      id="g2005"
      inkscape:label="results"
-     transform="matrix(4.556719,0,0,4.556719,-17.081416,-392.16134)">
+     transform="matrix(4.556719,0,0,4.556719,-17.081404,-408.41376)">
     <g
        inkscape:label="resultB"
-       transform="matrix(0.35277778,0,0,0.35277778,0.571859,33.634942)"
+       transform="matrix(0.35277778,0,0,0.35277778,-2.4320592,33.634942)"
        id="g1503"
        clip-rule="nonzero"
        clip-path="url(#clip8)"
@@ -1150,7 +1150,7 @@
     </g>
     <g
        inkscape:label="resultA"
-       transform="matrix(0.35277778,0,0,0.35277778,-16.303223,31.653302)"
+       transform="matrix(0.35277778,0,0,0.35277778,-15.373697,31.653302)"
        id="g1499"
        clip-rule="nonzero"
        clip-path="url(#clip7)"
@@ -1169,7 +1169,7 @@
      inkscape:label="denise"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-252.90423,25.266066)"
+     transform="translate(-252.90423,25.266062)"
      style="display:none">
     <g
        style="display:inline;opacity:1"
@@ -2262,7 +2262,7 @@
   </g>
   <g
      id="g1749"
-     transform="translate(-848.07857,-24.165553)"
+     transform="translate(-848.07857,-24.165557)"
      style="display:inline">
     <g
        transform="translate(-96.780971,139.82169)"
