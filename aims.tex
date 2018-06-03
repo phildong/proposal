@@ -11,81 +11,93 @@ has been demonstrated in rodents that two neutral contexts experienced close in
 time shared a larger proportion of neural ensemble than those experienced more
 distant in time. Furthermore, subsequent fear conditioning in the later context
 increased animals' freezing level in the previous context, suggesting a transfer
-of fear memory retrospectively. Such results suggest a
-linking of two temporally distinct memories through overlapping neuronal
-ensembles, and the phenomenon is termed memory linking. However, it remains
-unclear what factors may affect the temporal window of memory linking, which is
-the maximum time interval within which two memories can be linked together.
-Specifically, it is unknown whether the affective valence of a memory influences
-the extent or the symmetry of the temporal window of memory linking. For
-instance, it is unclear whether negative valence of a memory could extend the
-time window within which it may be linked to a previous memory. Moreover, it is
-not clear whether a negative memory could link forward with a memory that
-happens later in time, (\textit{i.e} linking to a memory prospectively).
-Furthermore, it's unclear whether such prospective memory linking has a similar
-time window as retrospective memory linking (\textit{i.e} whether the time
-window is symmetric regarding the temporal order of memories). Thus, the main
-goal of this proposal is to study how affective value and temporal order affect
-the temporal window of memory linking, with both behavioral experiments and
-calcium imaging in behaving animals.
+of fear memory retrospectively. Such results suggest a linking of two temporally
+distinct memories through overlapping neuronal ensembles, and the phenomenon is
+termed memory linking. One of the hypothesis that could explain memory linking
+is the excitability hypothesis, which states that the neurons encoding an
+earlier memory have a transient increase in excitability, making them more
+likely to be active during the encoding of a later memory, thus resulting in an
+increase of ensembles overlap between the two memories. Such increase in the
+ensembles overlap, in turn, may drive memory linking.
 
-One of the hypothesis that could explain memory linking is the excitability
-hypothesis, which states that the neurons encoding an earlier memory have a
-transient increase in excitability, making them more likely to be active during
-the encoding of a later memory, thus resulting in an increase of ensembles
-overlap between the two memories. Such increase in the ensembles overlap, in
-turn, may drive memory linking. Since it has been shown that negative valence
-increase neuron excitability, it is expected that neurons engaged in a negative
-memory sustain an elevated level of excitability longer than those in a neutral
-memory. Thus, for a negative memory, the excitability model would predict a
-longer temporal window for prospective memory linking comparing to retrospective
-memory linking. Furthermore, the excitability model would not predict a change
-of retrospective memory linking window as a function of emotional valence.
-However, from an ethological point of view, retrospective memory linking is more
-important than prospective memory linking, since past memories may have a causal
-contribution to future events, but not the other way around. Moreover, memory
-linking of more negative events should extend further back in time, since that
-helps animals to gather more information to avoid future traumatic events. In
-fact, we have preliminary data suggesting that negative valence increase the
-retrospective memory linking window, and that retrospective memory linking
-window is longer than prospective linking window. Thus, we hypothesis that
-negative emotional valence extend retrospective memory linking time window, and
-that retrospective memory linking time window is longer than those in
-prospective memory linking. To test these hypothesis, we will carry out behavior
-experiments utilizing contextual fear conditioning, as well as \textit{in vivo}
-calcium imaging in freely moving animals.
+However, the ethological implication of memory linking remains unclear. It can
+be speculated that memory linking may play a role in causal inference, in that
+linking a traumatic experience with an earlier memory may help the animal learn
+the causal relationship between memories and avoid future traumatic events.
+Thus, retrospective memory linking, where the animal link a traumatic experience
+with a previous neutral contextual memory, should be more important than
+prospective memory linking, where the animal link a traumatic experience with a
+neutral memory that happens later in time. Specifically, the temporal window of
+memory linking, which is the maximum time interval within which two memories
+could be linked together, should be longer for retrospective memory linking than
+for prospective memory linking, since it helps the animal to gather more
+information about the potential cause of the traumatic event. However, the
+excitability hypothesis would predict the opposite --- Since it has been shown
+that negative valence increase neuron excitability, it is expected that neurons
+engaged in a negative memory sustain an elevated level of excitability longer
+than those in a neutral memory. Thus, for a negative memory, the excitability
+model would predict a longer temporal window for prospective memory linking
+comparing to retrospective memory linking. We have preliminary results
+suggesting a longer temporal window for retrospective memory linking. Thus, the
+first goal of the presented proposal is to study the temporal window regarding
+the direction of memory linking, and we hypothesize that retrospective memory
+linking has a longer temporal window than prospective memory linking.
 
-Besides behavior, the other important aspect of memory linking is an increase of
-overlaps between the ensembles of two linked memories. Thus, our second goal is
-to study the neural correlates of memory linking during the manipulation of
-emotional valence and temporal order of contexts. To achieve this goal, we will
-carry out calcium imaging in behaving animals. One of the difficulties facing
-this approach is the analysis of imaging data. Various algorithms have been
-developed to extract calcium traces from raw videos, however a user-friendly
-pipeline is lacking. Thus our first step towards this goal is to develop
-analysis pipeline that can visualize the extraction results and register neurons
-across recording sessions, so that we may compare neural ensembles across
-sessions. We hypothesize that if the temporal window of memory linking changed,
-and transfer of fear is observed between two contexts, the overlaps between the
-ensembles encoding the two contexts should also increase. In addition, by
-applying dimension reduction analysis such as principal component analysis
-(PCA), we can uncover the underlying temporal structures of neural ensembles for
-individual sessions. Thus we also hypothesize that the similarities between
-principal components of two ensembles are higher if the corresponding contexts
-are linked together. In other words, the similarities between principal
-components of two memory ensembles should be consistent with the overlaps
-between the two ensembles.
+The second goal of our proposal is to study how ensemble dynamic of two
+contextual memories contribute to the emergence of the increase in overlap
+between the two ensembles, which in turn drives memory linking. We have
+preliminary results suggesting that the increase in ensemble overlap between the
+two contexts emerges only during retrieval testing, but not during encoding.
+Thus, an intuitive hypothesis is that the representation of one of the contexts
+changed after encoding, so that it is more similar to the other context. To test
+this hypothesis, we will investigate the reactivation rate for each context,
+which is the amount of overlap between the ensembles of encoding and retrieval
+of the same context. We will also investigate the overlap between the ensembles
+of one context during retrieval and the other context during encoding, which
+indicate whether one of the context become more similar to the other after
+encoding. In addition, we will investigate whether different ensembles during
+encoding have an equal contribution to the overlap between the two ensembles
+during retrieval. To test this, for each ensemble during encoding, we will
+calculate a rate of neurons that is also active in both contexts during
+retrieval. We can then compare the rates between different ensembles during
+encoding to see whether they contribute equally to the overlap between the two
+ensembles in retrieval. Lastly, the excitability hypothesis predict a
+correlation between the activity level of a neuron and the likelihood of the
+neuron being active again in future sessions. To test this, for any two
+recording sessions, we will classify the neurons in the earlier session into two
+populations according to whether they are also active during the later session.
+We can then compare the mean normalized activity level of the two population to
+see whether the activity level of a neuron could predict whether they are active
+in future sessions. Taken together, these tests will give us more insights in
+how the neurons in different ensembles and their temporal dynamic contribute to
+the emergence of memory linking.
 
-\paragraph{Aim 1: Study the effect of emotional value on the extent and symmetry
-  of the temporal window of memory linking.} Test the hypothesis that negative
-emotional value extend retrospective memory linking time window, and that
-retrospective memory linking time window is longer than those in prospective
-memory linking.
+Lastly, calcium imaging in behaving animals using miniature microscope is an
+essential tool for proposed studies. However, one of the challenge facing this
+approach is the analysis of imaging data. The constrained non--negative matrix
+factorization (CNMF) algorithm performed well on extracting calcium traces from
+raw video. However, a lack of user--friendly interface, batch--processing
+capability as well as visualization tools of the results limits its popularity
+among the community. Thus, the third goal of the presented proposal is to
+develop an analysis pipeline that provide an interface to the CNMF algorithm
+that enable the user to easily batch-process raw imaging data and visualize the
+results to quickly assess the quality of extraction. Such a tool will be very
+useful to the scientific community that employ calcium imaging with miniature
+microscope during their research.
 
-\paragraph{Aim 2: Study the neuronal correlate of memory linking.} Develop
-analysis pipeline for calcium imaging data. Test the
-hypothesis that linked memories have larger neural ensemble overlaps, and that
-linked memories also has more similarities in ensemble structures.
+\paragraph{Aim 1: Study the temporal window of prospective and retrospective
+  memory linking.} Test the hypothesis that temporal window for retrospective
+memory linking is longer comparing to prospective memory linking.
+
+\paragraph{Aim 2: Study how ensemble dynamic contribute to memory linking.} Test
+whether ensemble of one context become more similar to the other linked context
+after encoding. Test whether different ensembles during encoding have equal
+contribution to the overlap between ensembles of linked context during
+retrieval. Test whether activity level of neurons in one session could predict
+whether they are active in future sessions.
+
+\paragraph{Aim 3: Develop analysis pipeline for calcium imaging with miniature
+  microscope.}
 
 \newpage
 
