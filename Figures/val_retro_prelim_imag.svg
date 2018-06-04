@@ -16,8 +16,8 @@
    inkscape:version="0.92+devel (unknown)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 787.6077 479.65886"
-   height="479.65887mm"
+   viewBox="0 0 787.6077 476.27046"
+   height="476.27048mm"
    width="787.60779mm">
   <sodipodi:namedview
      inkscape:snap-global="false"
@@ -42,9 +42,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="svg8"
      inkscape:document-units="mm"
-     inkscape:cy="1695.701"
-     inkscape:cx="-55.847902"
-     inkscape:zoom="0.14911437"
+     inkscape:cy="1514.194"
+     inkscape:cx="416.41054"
+     inkscape:zoom="0.21087956"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -52,7 +52,7 @@
      pagecolor="#ffffff"
      id="base">
     <sodipodi:guide
-       position="-90.263562,456.42594"
+       position="-90.263561,431.01405"
        orientation="1,0"
        id="guide1170" />
   </sodipodi:namedview>
@@ -977,9 +977,9 @@
     </linearGradient>
     <inkscape:perspective
        id="perspective23"
-       inkscape:persp3d-origin="104.99998 : 99 : 1"
+       inkscape:persp3d-origin="104.99998 : 98.999998 : 1"
        inkscape:vp_z="200.60606 : 171.63454 : 1"
-       inkscape:vp_y="0 : 999.99998 : 0"
+       inkscape:vp_y="0 : 999.99996 : 0"
        inkscape:vp_x="15.550699 : 144.07752 : 1"
        sodipodi:type="inkscape:persp3d" />
     <linearGradient
@@ -3523,12 +3523,12 @@
   <text
      inkscape:label="lab_pro"
      id="text2081"
-     y="48.707142"
+     y="70.730637"
      x="6.338974"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Arial;-inkscape-font-specification:'Arial Bold';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
-       y="48.707142"
+       y="70.730637"
        x="6.338974"
        id="tspan2079"
        sodipodi:role="line">Neutral</tspan></text>
@@ -3536,17 +3536,17 @@
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Arial;-inkscape-font-specification:'Arial Bold';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      x="0"
-     y="127.18079"
+     y="149.20428"
      id="text2073"
      inkscape:label="lab_retro"><tspan
        sodipodi:role="line"
        id="tspan2071"
        x="0"
-       y="127.18079"
+       y="149.20428"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332">Aversive</tspan></text>
   <g
      id="g1749"
-     transform="translate(-646.23934,-178.86929)"
+     transform="translate(-646.23934,-156.84579)"
      style="display:inline"
      inkscape:label="experiment">
     <g
@@ -5148,7 +5148,7 @@
      id="g2339"
      inkscape:label="denise"
      style="display:none"
-     transform="translate(44.372257,-200.66047)">
+     transform="translate(44.372257,-178.63697)">
     <g
        transform="matrix(0.35277778,0,0,0.35277778,564.80881,304.76176)"
        id="g3545"
@@ -5739,34 +5739,34 @@
      width="207.9626"
      height="162.91496"
      x="101.87102"
-     y="2"
+     y="24.023497"
      inkscape:label="rect_encoding" />
   <text
      inkscape:label="lab_encoding"
      id="text2081-9"
-     y="192.37285"
+     y="16.161633"
      x="154.29715"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Arial;-inkscape-font-specification:'Arial Bold';display:inline;fill:#eeb311;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#eeb311;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
-       y="192.37285"
+       y="16.161633"
        x="154.29715"
        id="tspan2079-5"
        sodipodi:role="line">Encoding</tspan></text>
   <text
      inkscape:label="lab_retrieval"
      id="text2081-0"
-     y="194.61629"
+     y="18.405079"
      x="586.1319"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;font-family:Arial;-inkscape-font-specification:'Arial Bold';display:inline;fill:#eeb311;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#eeb311;fill-opacity:1;stroke-width:0.26458332"
-       y="194.61629"
+       y="18.405079"
        x="586.1319"
        sodipodi:role="line"
        id="tspan3274">Retrieval</tspan></text>
   <g
-     transform="translate(-19.902559,-225.1831)"
+     transform="translate(-19.902559,-228.57148)"
      inkscape:label="results"
      id="g1256">
     <g
@@ -6238,6 +6238,6 @@
      width="303.41525"
      height="162.91496"
      x="482.19257"
-     y="2"
+     y="24.023497"
      inkscape:label="rect_encoding" />
 </svg>
