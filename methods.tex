@@ -1,7 +1,7 @@
 \documentclass[master.tex]{subfiles}
 
 \begin{document}
-\setlength{\intextsep}{5pt} \setlength{\columnsep}{10pt}
+\setlength{\intextsep}{5pt} \setlength{\columnsep}{8pt}
 
 \section*{D. Research Design and Methods}
 
@@ -246,33 +246,17 @@ understand how memory linking happens in general.
 \subsection*{Aim 3: Develop analysis pipeline for calcium imaging with miniature
   microscope.}
 
-The existing analysis pipeline described in the preliminary results still lacks
-several important features --- the capability to be easily run in batch mode and
+One of the challenges facing the technique of miniature microscopes is the
+analysis of calcium imaging data. A constrained non--negative matrix
+factorization (CNMF) algorithm  has been developed to extract calcium traces from
+raw videos. However, lack of a user--friendly interface and visualization tools
+makes it hard for researchers without mathematical and programming background to
+adopt such method. To address these issues, we will develop an analysis pipeline
+using python and jupyter notebook as described in preliminary results. The
+existing analysis pipeline still lacks several important features --- the capability to be easily run in batch mode and
 the ability to easily visualize the results from multiple recording sessions for
-a large scale dataset. Several aspects are important to consider when developing
-this feature.
-\begin{inparaenum}[a)]
-\item The metadata, such as session i.d., animal and experiment need to be
-  properly stored and associated with the result of CNMF in order to properly
-  organize and index the dataset as a whole. The Python package ``xarray''
-  provides a solution by supporting a labeled N--dimensional data structure that
-  incorporates data with metadata (labels) in an intuitive manner.
-\item The size of a large dataset usually cannot fit into the RAM space of a
-  personal computer. Thus, to visualize and analyze the result of CNMF for
-  large--scale datasets, a ``lazy loading'' feature is required where the data
-  are only loaded into the RAM when needed (\textit{i.e} when the actual
-  computation happens), and will be cleared out of the RAM to make space for
-  other data once the computation is finished. The Python package ``dask''
-  provide this functionality and support an interface to ``xarray''
-  out--of--box.
-\item The visualization of a large dataset can be expensive to generate in terms
-  of both time and disk space. Thus, the capability to generate visualization
-  dynamically is important. The Python package ``holoviews'' provides this
-  functionality and enable easy visualization of large datasets. It also
-  supports an interface to ``xarray''.
-\end{inparaenum}
-We will use the package mentioned above to further develop the analysis pipeline
-for calcium imaging with miniature microscopes. Such a tool will be very
-valuable to the scientific community.
+a large scale dataset. We will continue our development in the existing
+framework. The analysis pipeline will be a valuable tool for the scientific
+community that employs miniature microscopes.
 
 \end{document}
