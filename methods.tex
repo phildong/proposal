@@ -1,22 +1,24 @@
 \documentclass[master.tex]{subfiles}
 
 \begin{document}
+\setlength{\intextsep}{5pt} \setlength{\columnsep}{10pt}
 
 \section*{D. Research Design and Methods}
 
 \subsection*{Aim 1: Study the temporal window of prospective and retrospective
   memory linking.}
 
-\begin{figure}[!hbt]
-  \centering \includegraphics[scale = .135]{Figures/exp_pro_retro.pdf}
-  \caption{\footnotesize behavior experimental design. Animals are divided into
-    ``Retrospective'' and ``Prospective'' groups. Animals are put into different
-    contexts as shown in the figure. The time interval between exposure of
-    context A and B are varied by further dividing animal into subgroups.
-    Subgroup ``5h'', ``1d'', ``2d'', ``7d'' correspond to time interval of 5
-    hours, 1 day, 2 days and 7 days respectively.}
+% \begin{figure}[!hbt]
+%   \centering \includegraphics[scale = .135]{Figures/exp_pro_retro.pdf}
+%   \caption{\footnotesize behavior experimental design.}
+%   \label{fig:exp_behav}
+% \end{figure}
+
+\begin{wrapfigure}{L}{0.6\textwidth}
+  \centering \includegraphics[width=0.6\textwidth]{Figures/exp_pro_retro.pdf}
+  \caption{\footnotesize behavior experimental design.}
   \label{fig:exp_behav}
-\end{figure}
+\end{wrapfigure}
 
 To test hypothesis that retrospective memory linking has a longer temporal
 window than prospective memory linking, we will carry out behavior studies as
@@ -62,19 +64,17 @@ context C only.
 
 \subsection*{Aim 2: Study how ensemble dynamic contribute to memory linking.}
 
-\begin{figure}[!hbt]
-  \centering \includegraphics[scale = .135]{Figures/exp_imag.pdf}
-  \caption{\footnotesize imaging experiment design. Animals are put into
-    different contexts as shown in the figure. Animals are divided into 3
-    groups: ``5h'', ``2d'' and ``7d'' corresponding to a time interval of 5
-    hours, 2 days and 7 days respectively between the initial exposure of
-    context A and B. Calcium imaging are carried out in all sessions. The italic
-    labels at the bottom denote the population of neurons that is active during
-    the corresponding recording session. $B1_{pre}$ and $B1_{post}$ denote the
-    neural ensemble of context B before and after the shock delivery during
-    encoding.}
+% \begin{figure}[!hbt]
+%   \centering \includegraphics[scale = .135]{Figures/exp_imag.pdf}
+%   \caption{\footnotesize imaging experiment design.}
+%   \label{fig:exp_imag}
+% \end{figure}
+
+\begin{wrapfigure}{L}{0.6\textwidth}
+  \centering \includegraphics[width=0.6\textwidth]{Figures/exp_imag.pdf}
+  \caption{\footnotesize imaging experiment design.}
   \label{fig:exp_imag}
-\end{figure}
+\end{wrapfigure}
 
 To study how ensemble dynamics contribute to memory linking, we will carry out
 calcium imaging studies shown in \autoref{fig:exp_imag}. The design is similar
@@ -100,6 +100,16 @@ video will be processed with an analysis pipeline described in Specific Aim 3,
 and calcium traces for individual neurons can be extracted with CNMF algorithm.
 Thus the neural dynamics during all sessions can be collected and analyzed.
 
+\begin{wrapfigure}{L}{0.3\textwidth}
+  \vspace{-15pt}
+  \begin{align} \label{eq_react}
+    R_{A1} & = \frac{N\{A1 \cap A2\}}{N\{A1\}} \nonumber \\
+    R_{B1pre} & = \frac{N\{B1_{pre} \cap B2\}}{N\{B1_{pre}\}} \nonumber \\
+    R_{B1post} & = \frac{N\{B1_{post} \cap B2\}}{N\{B1_{post}\}}
+  \end{align}
+  \vspace{-15pt}
+\end{wrapfigure}
+
 For simplicity, we use uppercase letters combined with numbers to denote the
 population of neurons that were active during a recording session as shown in
 the bottom of \autoref{fig:exp_imag}: we use $A1$ and $A2$ to denote neurons
@@ -121,57 +131,59 @@ but not reactivated during the retrieval session of context A. Finally, we use
 interested in. For example, $N\{A1\}$ denotes the total count of cells that are
 active during the encoding of context A.
 
+\begin{wrapfigure}{R}{0.3\textwidth}
+\vspace{-15pt}
+  \begin{align} \label{eq_drift}
+    R_{BA} & = \frac{N\{A1 \cap B2\}}{N\{A1\}} \nonumber \\
+    R_{ABpre} & = \frac{N\{B1_{pre} \cap A2\}}{N\{B1_{pre}\}} \nonumber \\
+    R_{ABpost} & = \frac{N\{B1_{post} \cap A2\}}{N\{B1_{post}\}}
+  \end{align}
+\vspace{-15pt}
+\end{wrapfigure}
+
 To test \textbf{whether representation of one context become more similar to the
   other after encoding}, we will first look at the reactivation rate of the
 neurons initially encoding a context during the retrieval of that context.
-Specifically, we will calculate reactivation rate as the following:
-\begin{align*}
-  R_{A1} & = \frac{N\{A1 \cap A2\}}{N\{A1\}} \\
-  R_{B1pre} & = \frac{N\{B1_{pre} \cap B2\}}{N\{B1_{pre}\}} \\
-  R_{B1post} & = \frac{N\{B1_{post} \cap B2\}}{N\{B1_{post}\}} \\
-\end{align*}
-where $R_{A1}$, $R_{B1pre}$, $R_{B1post}$ denote the reactivation rate of the
-ensembles for context A, pre-shock phase for context B, and post-shock phase for
-context B, respectively. In addition, we will also look at whether one context
-becomes more similar to the other after encoding. To test this, we can calculate
-a reactivation rate of the neurons initially encoding one context during the
-retrieval of the other context. Specifically, we will calculate the rate as the
-following:
-\begin{align*}
-  R_{BA} & = \frac{N\{A1 \cap B2\}}{N\{A1\}} \\
-  R_{ABpre} & = \frac{N\{B1_{pre} \cap A2\}}{N\{B1_{pre}\}} \\
-  R_{ABpost} & = \frac{N\{B1_{post} \cap A2\}}{N\{B1_{post}\}} \\
-\end{align*}
-Conceptually, $R_{BA}$ indicate how close is the representation of context B
-during retrieval to the initial representation of context A. Similarly,
-$R_{ABpre}$ and $R_{ABpost}$indicate how close is the representation of context
-A during retrieval to the initial pre-shock or post-shock representation of
-context B, respectively. If there is a drift of the representation of one
-context towards the other after encoding, we expect to see a decrease of
-reactivation rate of that context between encoding and retrieval, as well as a
-higher overlap between the retrieval of that context and the encoding of the
-other context.
+Specifically, we will calculate reactivation rate as shown in
+\autoref{eq_react}, where $R_{A1}$, $R_{B1pre}$, $R_{B1post}$ denote the
+reactivation rate of the ensembles for context A, pre-shock phase for context B,
+and post-shock phase for context B, respectively. In addition, we will also look
+at whether one context becomes more similar to the other after encoding. To test
+this, we can calculate a reactivation rate of the neurons initially encoding one
+context during the retrieval of the other context. Specifically, we will
+calculate the rate as shown in \autoref{eq_drift}. Conceptually, $R_{BA}$
+indicate how close is the representation of context B during retrieval to the
+initial representation of context A. Similarly, $R_{ABpre}$ and
+$R_{ABpost}$indicate how close is the representation of context A during
+retrieval to the initial pre-shock or post-shock representation of context B,
+respectively. If there is a drift of the representation of one context towards
+the other after encoding, we expect to see a decrease of reactivation rate of
+that context between encoding and retrieval, as well as a higher overlap between
+the retrieval of that context and the encoding of the other context.
 
 To study \textbf{how different ensembles during encoding may contribute to the
   overlap during the retrieval}, we will calculate the proportion of cells
-during encoding that also serve as the overlapping cells during retrieval.
-Specifically:
-\begin{displaymath}
-  C_{X} = \frac{N\{X \cap (A2 \cap B2) \setminus (A2 \cap B2 \cap C)\}}{N\{X\}}
-\end{displaymath}
-where $X$ is one of the three ensembles during encoding, that is: $A1$,
-$B1_{pre}$, or $B1_{post}$. The term $(A2 \cap B2) \setminus (A2 \cap B2 \cap
-C)$ give us the population of neurons that are active specifically in both the
-retrieval of context A and B, but not active during all three retrieval sessions
-of context A, B and C. The intersection between this population and the
-ensembles of one of the encoding sessions will then estimate the contribution of
-neurons from one of the encoding sessions to this specific population that may
-drive memory linking. Thus, $C_{A1}$, $C_{B1pre}$ and $C_{B1post}$ will indicate
-the contributions to the overlap during retrieval from the ensembles encoding
-context A, pre-shock phase of context B, and post-shock phase of context B
-respectively. We will then compare these three rate to see whether different
-ensembles during encoding contribute equally to the population of neurons that
-may drive memory linking.
+during encoding that also serve as the overlapping cells during retrieval, as
+shown in \autoref{eq_contrib}. $X$ is one of the three ensembles during
+encoding, that is: $A1$, $B1_{pre}$, or $B1_{post}$. The term $(A2 \cap B2)
+\setminus (A2 \cap B2 \cap C)$ give us the population of neurons that are active
+specifically in both the retrieval of context A and B, but not active during all
+three retrieval sessions of context A, B and C. The intersection between this
+population and the ensembles of one of the encoding sessions will then estimate
+the contribution of neurons from one of the encoding sessions to this specific
+population that may drive memory linking. Thus, $C_{A1}$, $C_{B1pre}$ and
+$C_{B1post}$ will indicate the contributions to the overlap during retrieval
+from the ensembles encoding context A, pre-shock phase of context B, and
+post-shock phase of context B respectively. We will then compare these three
+rate to see whether different ensembles during encoding contribute equally to
+the population of neurons that may drive memory linking.
+
+\begin{wrapfigure}{L}{0.5\textwidth}
+  \begin{equation} \label{eq_contrib} C_{X} = \frac{N\{X \cap (A2 \cap B2)
+      \setminus (A2 \cap B2 \cap C)\}}{N\{X\}}
+  \end{equation}
+  \vspace{-15pt}
+\end{wrapfigure}
 
 Lastly, in line with the allocation hypothesis, we expect \textbf{the activity
   level of a neuron should affect the likelihood of that neuron being
@@ -184,23 +196,28 @@ all neurons in that session. We can denote such centered and normalized activity
 level in session X as $A_X\{\ldots\}$, where $\ldots$ indicate a specific
 population we are interested in. Then, for any given two recording sessions $X$
 and $Y$, where $X$ happens before $Y$, four quantities will be calculated and
-compared:
-\begin{align*}
-  Activity_{X}^{common} & = A_X\{X \cap Y\} \\
-  Activity_{X}^{alone} & = A_X\{X \setminus (X \cap Y)\} \\
-  Activity_{Y}^{common} & = A_Y\{X \cap Y\} \\
-  Activity_{Y}^{alone} & = A_Y\{Y \setminus (X \cap Y)\}
-\end{align*}
-$Activity_{X}^{common}$ indicate the activity level in $X$ of those cells that
-were reactivated in $Y$, whereas $Activity_{X}^{alone}$ indicate the activity
-levels in $X$ of the cells that were only activated during $X$, but not $Y$. We
-will then compare the mean of $Activity_{X}^{common}$ and
-$Activity_{X}^{alone}$. According to allocation hypothesis, we expect to see
-higher $Activity_{X}^{common}$ than $Activity_{X}^{alone}$, since the activity
-level in $X$ should affect whether they are reactivated in later sessions. On
-the other hand, we expect no difference between $Activity_{Y}^{common}$ and
-$Activity_{Y}^{alone}$, since the activity level of cells in the later session
-should not affect whether they are co-activated in both sessions.
+compared as shown in \autoref{eq_activity}. $Activity_{X}^{common}$ indicate the
+activity level in $X$ of those cells that were reactivated in $Y$, whereas
+$Activity_{X}^{alone}$ indicate the activity levels in $X$ of the cells that
+were only activated during $X$, but not $Y$. We will then compare the mean of
+$Activity_{X}^{common}$ and $Activity_{X}^{alone}$. According to allocation
+hypothesis, we expect to see higher $Activity_{X}^{common}$ than
+$Activity_{X}^{alone}$, since the activity level in $X$ should affect whether
+they are reactivated in later sessions. On the other hand, we expect no
+difference between $Activity_{Y}^{common}$ and $Activity_{Y}^{alone}$, since the
+activity level of cells in the later session should not affect whether they are
+co-activated in both sessions.
+
+\begin{wrapfigure}{L}{0.4\textwidth}
+  \vspace{-15pt}
+  \begin{align} \label{eq_activity}
+    Activity_{X}^{common} & = A_X\{X \cap Y\} \nonumber \\
+    Activity_{X}^{alone} & = A_X\{X \setminus (X \cap Y)\} \nonumber \\
+    Activity_{Y}^{common} & = A_Y\{X \cap Y\} \nonumber \\
+    Activity_{Y}^{alone} & = A_Y\{Y \setminus (X \cap Y)\}
+  \end{align}
+  \vspace{-25pt}
+\end{wrapfigure}
 
 The presented experiment has 3 groups in total. We plan to assign 8 animals for
 each group, resulting in a total of 24 animals. The surgeries, experiments and

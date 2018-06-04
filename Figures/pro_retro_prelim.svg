@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1021.646mm"
-   height="530.28265mm"
-   viewBox="0 0 1021.646 530.28264"
+   width="897.12366mm"
+   height="435.19275mm"
+   viewBox="0 0 897.12367 435.19273"
    version="1.1"
    id="svg8"
    inkscape:version="0.92+devel (unknown)"
@@ -969,10 +969,10 @@
     </linearGradient>
     <inkscape:perspective
        id="perspective23"
-       inkscape:persp3d-origin="104.99999 : 98.999999 : 1"
-       inkscape:vp_z="200.60607 : 171.63454 : 1"
-       inkscape:vp_y="0 : 999.99997 : 0"
-       inkscape:vp_x="15.5507 : 144.07753 : 1"
+       inkscape:persp3d-origin="104.99999 : 98.999997 : 1"
+       inkscape:vp_z="200.60606 : 171.63454 : 1"
+       inkscape:vp_y="0 : 999.99995 : 0"
+       inkscape:vp_x="15.550699 : 144.07753 : 1"
        sodipodi:type="inkscape:persp3d" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -1065,17 +1065,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.26528324"
-     inkscape:cx="1937.3212"
-     inkscape:cy="1188.8937"
+     inkscape:zoom="0.18758358"
+     inkscape:cx="2428.3148"
+     inkscape:cy="779.89195"
      inkscape:document-units="mm"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="g1749"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1050"
+     inkscape:window-height="1080"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -1087,7 +1087,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true">
     <sodipodi:guide
-       position="-292.10277,352.34587"
+       position="-338.85485,286.58958"
        orientation="1,0"
        id="guide1170" />
   </sodipodi:namedview>
@@ -1107,33 +1107,33 @@
      inkscape:label="lab_pro"
      id="text2081"
      y="16.161633"
-     x="155.72321"
+     x="167.72929"
      style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
        y="16.161633"
-       x="155.72321"
+       x="167.72929"
        id="tspan2079"
        sodipodi:role="line">Prospective</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-     x="712.62469"
+     x="616.11938"
      y="16.161633"
      id="text2073"
      inkscape:label="lab_retro"><tspan
        sodipodi:role="line"
        id="tspan2071"
-       x="712.62469"
+       x="616.11938"
        y="16.161633"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.57777786px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332">Retrospective</tspan></text>
   <g
      id="g2005"
      inkscape:label="results"
-     transform="matrix(4.556719,0,0,4.556719,-17.081404,-408.41376)">
+     transform="matrix(4.556719,0,0,4.556719,-63.438621,-489.51669)">
     <g
        inkscape:label="resultB"
-       transform="matrix(0.35277778,0,0,0.35277778,-2.4320592,33.634942)"
+       transform="matrix(0.35277778,0,0,0.35277778,-16.498752,30.303901)"
        id="g1503"
        clip-rule="nonzero"
        clip-path="url(#clip8)"
@@ -1150,7 +1150,7 @@
     </g>
     <g
        inkscape:label="resultA"
-       transform="matrix(0.35277778,0,0,0.35277778,-15.373697,31.653302)"
+       transform="matrix(0.35277778,0,0,0.35277778,-6.2130609,28.583779)"
        id="g1499"
        clip-rule="nonzero"
        clip-path="url(#clip7)"
@@ -1169,7 +1169,7 @@
      inkscape:label="denise"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-252.90423,25.266062)"
+     transform="translate(-299.65632,-4.0675648)"
      style="display:none">
     <g
        style="display:inline;opacity:1"
@@ -2262,7 +2262,7 @@
   </g>
   <g
      id="g1749"
-     transform="translate(-848.07857,-24.165557)"
+     transform="translate(-894.83066,-53.499184)"
      style="display:inline">
     <g
        transform="translate(-96.780971,139.82169)"
@@ -2532,7 +2532,7 @@
            id="text2772"
            y="144.10074"
            x="123.84412"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
              y="144.10074"
@@ -2931,7 +2931,7 @@
            y="137.27237"
            x="72.187157">Low shock</tspan></tspan></text>
     <g
-       transform="translate(1217.6847,62.098906)"
+       transform="translate(1171.658,62.098906)"
        inkscape:label="experiment_retro"
        id="g3634"
        style="display:inline">
@@ -3087,7 +3087,7 @@
              width="100%"
              height="100%"
              inkscape:label="test_retro"
-             transform="translate(453.52968,-82.900452)" />
+             transform="translate(418.17691,-82.900452)" />
           <use
              x="0"
              y="0"
@@ -3120,7 +3120,7 @@
                    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332">ctx B</tspan></text>
               <text
                  xml:space="preserve"
-                 style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                  x="123.23354"
                  y="144.10074"
                  id="text133"
@@ -3210,22 +3210,22 @@
                inkscape:label="2d_arr"
                inkscape:connector-curvature="0"
                id="path1180"
-               d="m -104.19901,12.999907 h 93.094379"
+               d="m -104.19901,12.999907 h 52.076907"
                style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
                sodipodi:nodetypes="cc" />
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-               x="-66.880058"
+               x="-85.040619"
                y="8.9514456"
                id="text1567"
                inkscape:label="2d_lab"><tspan
                  sodipodi:role="line"
-                 x="-66.880058"
+                 x="-85.040619"
                  y="8.9514456"
                  id="tspan1565"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"><tspan
-                   x="-66.880058"
+                   x="-85.040619"
                    y="8.9514456"
                    id="tspan1563"
                    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332">2d</tspan></tspan></text>
@@ -3281,7 +3281,7 @@
          style="display:none" />
     </g>
     <g
-       transform="translate(663.82947,62.098906)"
+       transform="translate(721.57385,62.098906)"
        style="display:inline;opacity:1"
        id="use3636"
        inkscape:label="experiment_pro">
@@ -3463,7 +3463,7 @@
                  id="text3688"
                  y="144.10074"
                  x="123.4058"
-                 style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+                 style="font-style:normal;font-weight:normal;font-size:10.58333302px;font-family:sans-serif;text-align:center;text-anchor:middle;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                  xml:space="preserve"><tspan
                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.26458332"
                    y="144.10074"
@@ -3549,7 +3549,7 @@
             <path
                sodipodi:nodetypes="cc"
                style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1553)"
-               d="m -104.19901,12.999907 h 93.094379"
+               d="m -104.19901,12.999907 h 50.458968"
                id="path3712"
                inkscape:connector-curvature="0"
                inkscape:label="2d_arr" />
@@ -3557,18 +3557,18 @@
                inkscape:label="2d_lab"
                id="text3718"
                y="8.9514456"
-               x="-66.880058"
+               x="-85.849586"
                style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
                xml:space="preserve"><tspan
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
                  id="tspan3716"
                  y="8.9514456"
-                 x="-66.880058"
+                 x="-85.849586"
                  sodipodi:role="line"><tspan
                    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.26458332"
                    id="tspan3714"
                    y="8.9514456"
-                   x="-66.880058">2d</tspan></tspan></text>
+                   x="-85.849586">2d</tspan></tspan></text>
           </g>
           <use
              x="0"
@@ -3578,7 +3578,7 @@
              width="100%"
              height="100%"
              inkscape:label="test_pro"
-             transform="translate(459.25983,-82.900452)" />
+             transform="translate(416.06355,-82.900452)" />
           <g
              style="opacity:1"
              id="g3728"
