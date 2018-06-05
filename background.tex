@@ -108,7 +108,7 @@ biological function of linking events disparate in time, this example also
 highlights the predictive nature such associations can serve --- CTA
 specifically ties sickness with stimuli experienced prior to sickness. Thus,
 retrospective memory linking, where an animal links an aversive experience with
-a the memory of a previously experienced neutral context, should be more
+a memory of a previously experienced neutral context, should be more
 important than prospective memory linking, where an animal links an aversive
 experience with a neutral contextual memory that happens later in time.
 Specifically, the temporal window of memory linking should be longer for
@@ -127,22 +127,22 @@ for retrospective memory linking than for prospective memory linking. Thus, we
 hypothesize that retrospective memory linking has a longer temporal window than
 prospective memory linking.
 
-Moreover, it is unclear how memory linking happens. As mentioned before, we
-have ethological speculations and preliminary data that cannot be fully
-addressed by the memory allocation hypothesis. We will focus on studying the
-mechanism of memory linking from a neural coding perspective. Specifically, we
-will focus on studying the neural correlates and ensemble dynamics of memory
-linking. Firstly, we have preliminary data suggesting that the increase in
-overlap of hippocampal ensembles emerges after the encoding of the two memories, which is
-contrary to what the allocation hypothesis would predict. To confirm this
-observation, we will compare the ensembles for each memory during encoding and
-retrieval to see whether there is a change after encoding. We will also compare
-the ensembles of one memory during encoding to the other during retrieval to see
-whether memory ensembles are becoming more similar to each other. Secondly, one of
-the most important neural correlates of memory linking is the ensemble overlap
-between the linked memories, since it has been shown that manipulating this
-overlapping population of neurons directly and specifically affects memory
-linking \cite{yokose_overlapping_2017}. However, it is unclear how each memory
+Moreover, it is unclear how memory linking happens. As mentioned before, we have
+ethological speculations and preliminary data that cannot be fully addressed by
+the memory allocation hypothesis. We will focus on studying the mechanism of
+memory linking from a neural coding perspective. Specifically, we will focus on
+studying the neural correlates and ensemble dynamics of memory linking. Firstly,
+we have preliminary data suggesting that the increase in overlap of hippocampal
+ensembles emerges after the encoding of the two memories, which is contrary to
+what the allocation hypothesis would predict. To confirm this observation, we
+will compare the ensembles for each memory during encoding and retrieval to see
+whether there is a change after encoding. We will also compare the ensembles of
+one memory during encoding to the other during retrieval to see whether memory
+ensembles are becoming more similar to each other. Secondly, one of the most
+important neural correlates of memory linking is the ensemble overlap between
+the linked memories, since it has been shown that manipulating this overlapping
+population of neurons directly and specifically affects memory linking
+\cite{yokose_overlapping_2017}. However, it is unclear how each memory
 contribute to the overlap. Thus, we will test whether the neurons engaged in the
 encoding sessions of each memory contribute equally to the overlap of ensembles
 during retrieval. Lastly, the allocation hypothesis predict that the activity
@@ -156,35 +156,36 @@ more insight into how memory linking happens on a neural ensemble level.
 
 Lastly, calcium imaging with miniature microscope in behaving animals is an
 important tool to study the neuronal dynamics in memory linking studies, due to
-its capability to track large populations of neurons across long periods of time.
-However, one of the challenges facing this technique is the analysis of imaging
-data. Specifically, extracting calcium traces of individual neurons from raw
-video is a difficult problem. Several approaches have been developed to address
-this difficulty. Most notably, a variant of the constrained non--negative matrix
-factorization (CNMF) algorithm has been shown to work well on calcium imaging
-data with miniature microscopes \cite{pnevmatikakis_simultaneous_2016,
-  zhou_efficient_2016}. However, in practice, the accessibility of such
-approaches has been limited to the general scientific community that utilize
-miniature microscope for several reasons:
+its capability to track large populations of neurons across long periods of
+time. However, one of the challenges facing this technique is the analysis of
+imaging data. Specifically, extracting calcium traces of individual neurons from
+raw video is a difficult problem. Several approaches have been developed to
+address this difficulty. Most notably, a variant of the constrained
+non--negative matrix factorization (CNMF) algorithm has been shown to work well
+on calcium imaging data with miniature microscopes
+\cite{pnevmatikakis_simultaneous_2016, zhou_efficient_2016}. However, in
+practice, the accessibility and efficiency of such approaches has been limited
+for several reasons:
 \begin{inparaenum}[a)]
 \item The effect of different parameters in the mathematical model and the
   complications introduced by performance optimization of the code can be hard
-  to comprehend for researchers without a mathematical or programming background.
+  to comprehend for researchers without a mathematical or programming
+  background.
 \item Lack of a pre--processing pipeline that specifically addresses various
-  artifacts usually observed in miniature microscope data requires the user to either
-  rely on other software to conduct pre--processing steps or modify the existing
-  code to extend its functionality.
+  artifacts usually observed in miniature microscope data requires the user to
+  either rely on other software to conduct pre--processing steps or modify the
+  existing code to extend its functionality.
 \item Lack of visualization tools at each step of analysis makes it hard for the
-  researchers to check the quality of result. This is a
-  significant issue especially since there are many detailed parameters that may
-  have a huge effect on the final output of the CNMF algorithm.
-\item The lack of a batch-processing pipeline, as well as an easy way to visualize
-  the results across multiple data--sets, limits the applicability of the
-  algorithm to the analysis of large scale experiments.
+  researchers to check the quality of result. This is a significant issue
+  especially since there are many detailed parameters that may have a huge
+  effect on the final output of the CNMF algorithm.
+\item The lack of a batch-processing pipeline, as well as an easy way to
+  visualize the results across multiple datasets, limits the applicability of
+  the algorithm to the analysis of large scale experiments.
 \end{inparaenum}
-Thus, to address these difficulties, the final goal of the proposal is to
-develop an analysis pipeline that provides a user--friendly interface to the
-CNMF algorithm, and provides visualization tools as well as batch-processing
-capability, integrated into a single analysis package.
+Thus, to address these difficulties, we will develop an analysis pipeline that
+provides a user--friendly interface to the CNMF algorithm, and provides
+visualization tools as well as batch-processing capability, integrated into a
+single analysis package.
 
 \end{document}
