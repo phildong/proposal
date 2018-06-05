@@ -51,7 +51,13 @@
 \usepackage[none]{hyphenat}
 \sloppy
 
-\hyphenation{ionto-pho-re-tic iso-tro-pic fortran} % Specifies custom hyphenation points for words or words that shouldn't be hyphenated at all
+\hyphenation{ionto-pho-re-tic iso-tro-pic fortran} % Specifies custom
+                                % hyphenation points for words or words that
+                                % shouldn't be hyphenated at all
+
+\titleformat{\paragraph}[runin]
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing{\paragraph}{0pt}{1ex plus 1ex minus .2ex}{2pt}
 
 \begin{document}
 
