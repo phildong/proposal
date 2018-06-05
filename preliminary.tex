@@ -1,7 +1,7 @@
 \documentclass[master.tex]{subfiles}
 
 \begin{document}
-\setlength{\intextsep}{2pt} \setlength{\columnsep}{9pt}
+\setlength{\intextsep}{4pt} \setlength{\columnsep}{9pt}
 \setlength{\abovecaptionskip}{1pt} \setlength{\belowcaptionskip}{1pt}
 
 
@@ -59,7 +59,7 @@ linking.
 \begin{wrapfigure}{L}{0.6\textwidth}
   \centering \includegraphics[width =
   0.6\textwidth]{Figures/val_retro_prelim.pdf}
-  \caption{\footnotesize Negative valence increased temporal window of memory
+  \caption{\footnotesize Negative valence increases temporal window of memory
     linking.}
   \label{fig:prelim_val}
 \end{wrapfigure}
@@ -80,10 +80,10 @@ context B an aversive memory from the beginning. In contrast, for the
 ``neutral'' group, the emotional valence of context B was initially neutral, and
 the animals received an immediate shock 2 days after the initial exploration of
 context B. Similar to the preliminary experiments described earlier, animals
-within each major group were further divided into sub groups according to
+within each major group were further divided into subgroups according to
 various time intervals between initial exposure of context A and B, while all of
 the animals were put back to context A for testing and the comparison of
-freezing levels in A between sub groups could reveal the difference in temporal
+freezing levels in A between subgroups could reveal the difference in temporal
 windows of memory linking across ``neutral'' and ``aversive'' groups. We
 observed that consistent with published works, animals in the ``neutral'' group
 can only link the two memories across 5 hours. However, animals in the
@@ -130,7 +130,7 @@ predicted by the memory allocation hypothesis.
 \subsection*{Minian: a python analysis pipeline for calcium imaging data}
 
 To address the difficulties raised during the analysis of calcium imaging data
-with miniature microscopes, we have developed an open-source analysis pipeline
+with miniature microscopes, we have developed an open--source analysis pipeline
 that allows the user to easily run through code, take notes and visualize the
 results at the same time. Specifically, the pipeline incorporates
 pre--processing steps that take raw videos as inputs, and corrects various
@@ -159,7 +159,7 @@ major concerns about the quality of the extraction of calcium traces:
 % \begin{wrapfigure}{L}{0.6\textwidth}
 %   \centering \includegraphics[width=0.6\textwidth]{Figures/prelim_minian.png}
 %   \caption{\footnotesize integration of notes, codes and visualization of
-%     results in a single document.}
+%   results in a single document.}
 %   \label{fig:prelim_minian}
 % \end{wrapfigure}
 % \begin{figure}[!hbt]
@@ -178,11 +178,8 @@ spike trains of different neurons. Thus, the user can easily inspect whether
 ``units'' that are overlapping or close to each other have correlated calcium
 traces that suggest a single source of signal. Furthermore, there is an option
 to manually accept or reject ``units'' within the visualization tool, so that
-the user can modify the results and take out false ``units'' without leaving the
-visualization. All these features help the user to detect and correct the
-potential pitfalls of the calcium signal extraction process. Finally, the whole
-pipeline is provided as a jupyter notebook, which allows the user to easily take
-and share text notes, edit and execute code, and dynamically visualize results
-all in an integrated interface.
+the results can be refined and false ``units'' can be taken out easily without
+leaving the visualization. All these features help the user to detect and
+correct the potential pitfalls of the calcium signal extraction process.
 
 \end{document}
