@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="85.249969mm"
+   height="54.932709mm"
+   viewBox="0 0 85.24997 54.932709"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="prelim_venn_drift.svg"
+   inkscape:version="0.92+devel (unknown)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="svg8"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="opacity:1;fill:#0000ff;fill-opacity:0.21568627;stroke:#000000;stroke-width:3.00094485;stroke-miterlimit:8;stroke-dasharray:7.55905534, 7.55905534;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 136.83203 42.257812 A 102.30937 102.30937 0 0 0 116.08594 103.81055 A 102.30937 102.30937 0 0 0 136.7793 165.34375 A 81.587717 81.587717 0 0 0 164.94727 103.81055 A 81.587717 81.587717 0 0 0 136.83203 42.257812 z "
+     transform="scale(0.26458333)"
+     id="use3213" />
+  <g
+     inkscape:label="shade"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.740655,-89.400756)">
+    <circle
+       style="fill:#ff0000;fill-opacity:0.21568627;stroke-width:0.93733704;stroke-miterlimit:8"
+       id="path10"
+       cx="55.796074"
+       cy="116.86711"
+       r="21.58675"
+       inkscape:label="shadeA" />
+    <circle
+       style="fill:#0000ff;fill-opacity:0.21568627;stroke-width:0.79399997;stroke-miterlimit:8"
+       id="path12"
+       cx="91.524269"
+       cy="116.86711"
+       r="27.069355"
+       inkscape:label="shadeB" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="51.949383"
+       y="119.05075"
+       id="text3277"
+       inkscape:label="labA"><tspan
+         sodipodi:role="line"
+         x="51.949383"
+         y="119.05075"
+         id="tspan3275"
+         style="stroke-width:0.26458332"><tspan
+           x="51.949383"
+           y="119.05075"
+           id="tspan3273"
+           style="stroke-width:0.26458332">A<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan25">1</tspan></tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="87.001236"
+       y="119.05075"
+       id="text3277-6"
+       inkscape:label="labB"><tspan
+         sodipodi:role="line"
+         x="87.001236"
+         y="119.05075"
+         id="tspan3275-7"
+         style="stroke-width:0.26458332">B<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan27">2</tspan></tspan></text>
+  </g>
+</svg>
